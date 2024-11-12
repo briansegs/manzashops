@@ -1,1 +1,1 @@
-# manzashop
+# manzashop.com
