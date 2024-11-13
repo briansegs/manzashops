@@ -1,34 +1,24 @@
 const Header = () => {
   return (
-    <div className="flex bg-[#121212] items-center justify-center border-black border-[3px] mb-0 h-[50px]">
-      <div className="relative text-white ml-[20px]">
-        <a
-          href="/apl/shop1.html"
-          className="relative text-white ml-[20px] hover:text-[#60b3d1]"
-        >
-          Manza
-        </a>
-      </div>
+    <div className="flex justify-between items-center bg-header h-[50px] px-16 xl:px-40">
+      <a href="/apl/shop1.html" className="text-white hover:text-secondary">
+        Manza
+      </a>
 
       <input
-        className="ml-[30vh] relative border-black border-[3px] rounded-[5px] w-[55vh] h-[3vh]"
+        className="border-black border-[3px] rounded-[5px] w-[480px] xl:w-[550px] h-8 hidden lg:inline-block"
         placeholder="Search..."
       />
 
-      <a
-        href="form.html"
-        className="text-white w-[200px] pt-0 flex items-center justify-center"
-      ></a>
+      <div className="flex lg:gap-16 md:gap-4">
+        <a href="#" className="text-white px-2">
+          Our Mission
+        </a>
 
-      <a href="#" className="text-white justify-around">
-        Our Mission
-      </a>
-
-      <a href="checkout.html" className="pl-[100px] text-white">
-        Support Us
-      </a>
-
-      <i className="far fa-shopping-bag"></i>
+        <a href="checkout.html" className="text-white px-2">
+          Support Us
+        </a>
+      </div>
     </div>
   );
 };
