@@ -1,66 +1,66 @@
+import NavLinks from "../components/nav/NavLinks";
+
+const navItems = [
+  {
+    href: "/Scope1.html",
+    name: "Home",
+    line: false,
+    black: false,
+  },
+  {
+    href: "/shop1.html",
+    name: "Dash",
+    line: true,
+    black: true,
+  },
+  {
+    href: "/deals.html",
+    name: "Deals",
+    line: true,
+    black: false,
+  },
+  {
+    href: "/",
+    name: "Services",
+    line: true,
+    black: false,
+  },
+  {
+    href: "/",
+    name: "Jobs",
+    line: true,
+    black: false,
+  },
+  {
+    href: "/",
+    name: "Menus",
+    line: true,
+    black: false,
+  },
+  {
+    href: "/movies.html",
+    name: "Movies",
+    line: true,
+    black: false,
+  },
+  {
+    href: "/articles1.html",
+    name: "Newsletter",
+    line: true,
+    black: false,
+  },
+  {
+    href: "/",
+    name: "Great Things to try",
+    line: true,
+    black: false,
+  },
+];
+
 const Menu = () => {
   return (
-    <ul className="text-white rounded-br-[10px] rounded-bl-[10px] flex items-center justify-around bg-[#60b3d1] border-[3px] border-black h-[50px]">
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a
-          href="/Scope1.html"
-          className="text-white no-underline hover:text-[#0000ff]"
-        >
-          Home
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a
-          href="/shop1.html"
-          className="text-[22px] text-black underline hover:text-[#0000ff]"
-        >
-          | Dash{" "}
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a
-          href="/deals.html"
-          className="text-white no-underline hover:text-[#0000ff]"
-        >
-          | Deals{" "}
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a href="/" className="text-white no-underline hover:text-[#0000ff]">
-          | Services{" "}
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a href="/" className="text-white no-underline hover:text-[#0000ff]">
-          | Jobs{" "}
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a href="/" className="text-white no-underline hover:text-[#0000ff]">
-          | Menus{" "}
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a
-          href="/movies.html"
-          className="text-white no-underline hover:text-[#0000ff]"
-        >
-          | Movies
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a
-          href="/articles1.html"
-          className="text-white no-underline hover:text-[#0000ff]"
-        >
-          | Newsletter{" "}
-        </a>
-      </div>
-      <div className="text-white no-underline hover:text-[#0000ff]">
-        <a href="/" className="text-white no-underline hover:text-[#0000ff]">
-          | Great Things to try{" "}
-        </a>
-      </div>
+    <ul className="rounded-b-[10px] flex items-center justify-around bg-navbar border-[3px] border-black h-[50px]">
+      <NavLinks navItems={navItems} />
     </ul>
   );
 };
