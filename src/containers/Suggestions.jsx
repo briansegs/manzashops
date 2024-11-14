@@ -1,6 +1,6 @@
 const Suggestions = () => {
   return (
-    <div className="sticky top-0 flex items-center justify-between bg-[#141414] border-[3px] border-black h-[17vh] text-white overflow-x-scroll mt-[-5vh]">
+    <div className="flex items-center justify-between bg-[#141414] border-[3px] border-black h-[17vh] text-white">
       {/* add hover to img -> hover{box-shadow: 3px 3px 3px #60b3d1;} */}
       <a
         href=""

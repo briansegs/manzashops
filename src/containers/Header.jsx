@@ -38,16 +38,16 @@ const Header = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } pb-6 bg-navbar flex-col absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary`}
+          } pb-6 bg-navbar flex-col absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary z-10`}
         >
-          <div className="px-3 p-6  bg-black">
+          <div className="p-6 bg-header">
             <input
               className="border-black border-[3px] rounded-[5px] w-full h-8 "
               placeholder="Search..."
             />
           </div>
 
-          <div className="w-full flex gap-4 justify-between pb-3 px-6 bg-black mb-3">
+          <div className="w-full flex gap-4 justify-between pb-3 px-6 bg-header mb-3">
             <a href="#" className="text-white px-2">
               Our Mission
             </a>
