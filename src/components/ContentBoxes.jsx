@@ -92,30 +92,14 @@ const Boxdiv1 = ({ data }) => (
   </div>
 );
 
-const ContentBox = ({ title, styles }) => {
+const ContentBoxes = () => {
   return (
-    <div
-      className={`rounded-[10px] border-[3px] border-black bg-black w-[50vh] h-[40vh] overflow-y-scroll ${styles}`}
-    >
-      <span className="bg-black ml-[5vh] text-white text-[34px] px-[5vh]">
-        {title}
-      </span>
-
+    <>
       <Boxdiv1 data={data1} />
 
       <Boxdiv1 data={data3} />
-
-      <Boxdiv1 data={data3} />
-
-      <Boxdiv1 data={data3} />
-      <Boxdiv1 data={data3} />
-      <Boxdiv1 data={data3} />
-      <Boxdiv1 data={data3} />
-      <Boxdiv1 data={data3} />
-      <Boxdiv1 data={data3} />
-      <Boxdiv1 data={data3} />
-    </div>
+    </>
   );
 };
 
-export default ContentBox;
+export default ContentBoxes;
