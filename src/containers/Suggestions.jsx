@@ -2,7 +2,7 @@ import { itemData } from "../constants";
 
 const Suggestions = () => {
   return (
-    <div className="flex items-center pt-3 justify-between bg-[#141414] border-[3px] border-black flex-wrap">
+    <div className="flex items-center pt-3 justify-between gap-2 bg-[#141414] border-[3px] border-black flex-wrap">
       {itemData.map(({ href, name }) => (
         <a
           key={name}
