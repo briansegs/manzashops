@@ -1,34 +1,67 @@
+import { useState } from "react";
+import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
+import NavLinks from "../components/nav/NavLinks";
+import { navItems } from "../constants";
+
 const Header = () => {
+  const [toggle, setToggle] = useState(false);
   return (
-    <div className="flex bg-[#121212] items-center justify-center border-black border-[3px] mb-0 h-[50px]">
-      <div className="relative text-white ml-[20px]">
-        <a
-          href="/apl/shop1.html"
-          className="relative text-white ml-[20px] hover:text-[#60b3d1]"
-        >
-          Manza
-        </a>
-      </div>
+    <div className="flex justify-between items-center bg-header h-[50px] px-16 xl:px-40">
+      <a href="/apl/shop1.html" className="text-white hover:text-secondary">
+        Manza
+      </a>
 
       <input
-        className="ml-[30vh] relative border-black border-[3px] rounded-[5px] w-[55vh] h-[3vh]"
+        className="border-black border-[3px] rounded-[5px] w-[480px] xl:w-[550px] h-8 hidden lg:inline-block"
         placeholder="Search..."
       />
 
-      <a
-        href="form.html"
-        className="text-white w-[200px] pt-0 flex items-center justify-center"
-      ></a>
+      <div className="lg:flex lg:gap-16 md:gap-4 hidden">
+        <a href="#" className="text-white px-2">
+          Our Mission
+        </a>
 
-      <a href="#" className="text-white justify-around">
-        Our Mission
-      </a>
+        <a href="checkout.html" className="text-white px-2">
+          Support Us
+        </a>
+      </div>
 
-      <a href="checkout.html" className="pl-[100px] text-white">
-        Support Us
-      </a>
+      <div className="lg:hidden flex flex-1 justify-end items-center">
+        <button type="button" onClick={() => setToggle((prev) => !prev)}>
+          {toggle ? (
+            <RxCross1 className="text-white size-7" />
+          ) : (
+            <RxHamburgerMenu className="text-white size-7" />
+          )}
+        </button>
 
-      <i className="far fa-shopping-bag"></i>
+        <div
+          className={`${
+            toggle ? "flex" : "hidden"
+          } pb-6 bg-navbar flex-col absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary z-10`}
+        >
+          <div className="p-6 bg-header">
+            <input
+              className="border-black border-[3px] rounded-[5px] w-full h-8 "
+              placeholder="Search..."
+            />
+          </div>
+
+          <div className="w-full flex gap-4 justify-between pb-3 px-6 bg-header mb-3">
+            <a href="#" className="text-white px-2">
+              Our Mission
+            </a>
+
+            <a href="checkout.html" className="text-white px-2">
+              Support Us
+            </a>
+          </div>
+
+          <ul className="flex flex-col flex-1 px-6 gap-2">
+            <NavLinks navItems={navItems} />
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
