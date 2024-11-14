@@ -1,3 +1,4 @@
 import { navItems } from "./nav";
+import { itemData } from "./suggestions";
 
-export { navItems };
+export { navItems, itemData };
