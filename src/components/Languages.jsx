@@ -1,21 +1,21 @@
 const langItems = [
   {
-    src: "/src/assets/english.jpeg",
+    src: "/assets/english.jpeg",
     name: "English",
     href: "",
   },
   {
-    src: "/src/assets/spain.jpeg",
+    src: "/assets/spain.jpeg",
     name: "Spanish",
     href: "",
   },
   {
-    src: "/src/assets/french.jpeg",
+    src: "/assets/french.jpeg",
     name: "French",
     href: "",
   },
   {
-    src: "/src/assets/portu.jpeg",
+    src: "/assets/portu.jpeg",
     name: "Portugese",
     href: "",
   },
