@@ -19,7 +19,7 @@ const SpotLight = () => {
                        "
                 >
                   <img
-                    src="/assets/aldo.jpeg"
+                    src="/manzashop/assets/aldo.jpeg"
                     className="mr-[23px] inline-block w-[80px] h-[80px] rounded-[10px] bg-[#800080] text-white"
                     style={{ boxShadow: "2px 2px 5px white" }}
                   />
@@ -34,7 +34,10 @@ const SpotLight = () => {
           <p className="bg-black text-white text-[34px] pb-6">Get A Domain</p>
 
           <a href="https://www.domain.com/my-account/login">
-            <img src="/assets/domain.jpeg" className="object-fit h-[265px]" />
+            <img
+              src="/manzashop/assets/domain.jpeg"
+              className="object-fit h-[265px]"
+            />
           </a>
         </div>
 
@@ -44,7 +47,10 @@ const SpotLight = () => {
           </p>
 
           <a href="https://webflow.com/">
-            <img src="/assets/webflow.jpeg" className="object-fit h-[265px]" />
+            <img
+              src="/manzashop/assets/webflow.jpeg"
+              className="object-fit h-[265px]"
+            />
           </a>
         </div>
       </div>

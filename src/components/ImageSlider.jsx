@@ -4,7 +4,7 @@ const ImageSlider = () => {
       <div className="relative flex-1">
         <a href="" className="">
           <img
-            src="/assets/manza.png"
+            src="/manzashop/assets/manza.png"
             className="w-[171vh] h-[59.5vh] object-cover rounded-[10px] border-secondary border-b-4 shadow-[10px_10px_10px_black]"
           />
         </a>

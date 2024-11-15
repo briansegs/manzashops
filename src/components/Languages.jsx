@@ -1,21 +1,21 @@
 const langItems = [
   {
-    src: "/assets/english.jpeg",
+    src: "/manzashop/assets/english.jpeg",
     name: "English",
     href: "",
   },
   {
-    src: "/assets/spain.jpeg",
+    src: "/manzashop/assets/spain.jpeg",
     name: "Spanish",
     href: "",
   },
   {
-    src: "/assets/french.jpeg",
+    src: "/manzashop/assets/french.jpeg",
     name: "French",
     href: "",
   },
   {
-    src: "/assets/portu.jpeg",
+    src: "/manzashop/assets/portu.jpeg",
     name: "Portugese",
     href: "",
   },
