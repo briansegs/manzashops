@@ -3,22 +3,22 @@ const data1 = [
   {
     name: "nike",
     href: null,
-    src: "/public/assets/nike.jpeg",
+    src: "/manzashop/assets/nike.jpeg",
   },
   {
     name: "adidas",
     href: null,
-    src: "/public/assets/adidas.jpeg",
+    src: "/manzashop/assets/adidas.jpeg",
   },
   {
     name: "puma",
     href: null,
-    src: "/public/assets/puma.jpeg",
+    src: "/manzashop/assets/puma.jpeg",
   },
   {
     name: "aldo",
     href: null,
-    src: "/public/assets/aldo.jpeg",
+    src: "/manzashop/assets/aldo.jpeg",
   },
 ];
 
