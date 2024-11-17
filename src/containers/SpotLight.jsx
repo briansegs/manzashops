@@ -1,11 +1,11 @@
 const SpotLight = () => {
   return (
     <section className="pt-[2vh] flex flex-col w-full gap-6 bg-[#121212] px-[6vh]">
-      <div className="border-[5px] border-black rounded-[10px] flex flex-col bg-black shadow-[10px_10px_10px_black]">
+      <div className="border-[5px] border-black rounded-[10px] w-fit flex flex-col bg-black shadow-[10px_10px_10px_black] overflow-y-scroll">
         <p className="text-[24px] text-white pl-[2vh]">SPotLight</p>
 
-        <div className="flex flex-wrap gap-4 pt-[30px] px-[28px]">
-          {Array(24)
+        <div className="flex flex-wrap gap-4 pt-[30px] px-[28px] h-[280px]">
+          {Array(50)
             .fill()
             .map((_, index) => (
               <div
