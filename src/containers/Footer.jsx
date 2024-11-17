@@ -59,8 +59,13 @@ const Footer = () => {
         </p>
 
         <ul className="flex md:pl-8 pl-2 md:gap-10 gap-2 lg:w-1/2 w-full justify-around md:justify-start md:mt-12 mt-2">
-          <a href="">contact</a> <a href="">contact</a>
-          <a href="">contact</a> <a href="">contact</a> <a href="">contact</a>{" "}
+          {Array(5)
+            .fill()
+            .map((_, index) => (
+              <a key={index} href="">
+                contact
+              </a>
+            ))}
         </ul>
       </div>
     </footer>
