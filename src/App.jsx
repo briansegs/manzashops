@@ -8,7 +8,7 @@ import Suggestions from "./containers/Suggestions";
 
 const App = () => {
   return (
-    <div className="bg-white w-full overflow-hidden">
+    <div className="bg-white w-full">
       <Header />
       <Menu />
       <Hero />
