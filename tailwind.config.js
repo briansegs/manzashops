@@ -9,6 +9,9 @@ export default {
         header: "#121212",
         navbar: "#60b3d1",
       },
+      fontFamily: {
+        sans: ["Times New Roman", "serif"],
+      },
     },
   },
   plugins: [],
