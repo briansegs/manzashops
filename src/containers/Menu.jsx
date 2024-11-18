@@ -1,4 +1,4 @@
-import NavLinks from "../components/nav/NavLinks";
+import NavLinks from "../components/NavLinks";
 import { navItems } from "../constants";
 
 const Menu = () => {
