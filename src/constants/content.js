@@ -1,4 +1,4 @@
-export const data1 = [
+export const contentGroupData1 = [
   {
     title: "Our Content Shop",
     styles: "inline-block mt-[-6vh] ml-[15vh]",
@@ -21,7 +21,7 @@ export const data1 = [
   },
 ];
 
-export const data2 = [
+export const contentGroupData2 = [
   {
     title: "Toys",
     styles: "inline-block mt-[-6vh] ml-[15vh]",
@@ -41,5 +41,28 @@ export const data2 = [
   {
     title: "Furniture Shops",
     styles: "absolute mt-[-50vh] ml-[105vh] text-white",
+  },
+];
+
+export const contentBoxData = [
+  {
+    name: "nike",
+    href: null,
+    src: "/manzashop/assets/nike.jpeg",
+  },
+  {
+    name: "adidas",
+    href: null,
+    src: "/manzashop/assets/adidas.jpeg",
+  },
+  {
+    name: "puma",
+    href: null,
+    src: "/manzashop/assets/puma.jpeg",
+  },
+  {
+    name: "aldo",
+    href: null,
+    src: "/manzashop/assets/aldo.jpeg",
   },
 ];
