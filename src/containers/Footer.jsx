@@ -5,49 +5,43 @@ const Footer = () => {
         <div className="flex flex-col items-center mr-8">
           <img
             src="/manzashop/assets/favicon.png"
-            className=" w-96 border-[1px] border-white"
+            className="w-96 border-[1px] border-white"
           />
 
           <p className="text-[28px]">Est.2024</p>
         </div>
 
         <div className="flex lg:w-7/12 w-full justify-around">
-          <div className="">
+          <div className="flex flex-col gap-[15px]">
             <p className="text-[28px]">more</p>
             {Array(5)
               .fill()
               .map((_, index) => (
-                <ul key={index} className="pl-12">
-                  <a href="" className="inline-block text-blue-white mt-[2vh]">
-                    contact
-                  </a>{" "}
-                </ul>
+                <a key={index} href="" className="pl-12">
+                  contact
+                </a>
               ))}
           </div>
 
-          <div className="">
+          <div className="flex flex-col gap-[15px]">
             <p className="text-[28px]">more</p>
             {Array(5)
               .fill()
               .map((_, index) => (
-                <ul key={index} className="pl-12">
-                  <a href="" className="inline-block text-blue-white mt-[2vh]">
-                    contact
-                  </a>{" "}
-                </ul>
+                <a key={index} href="" className="pl-12">
+                  contact
+                </a>
               ))}
           </div>
 
-          <div className="">
+          <div className="flex flex-col gap-[15px]">
             <p className="text-[28px]">more</p>
             {Array(5)
               .fill()
               .map((_, index) => (
-                <ul key={index} className="pl-12">
-                  <a href="" className="inline-block text-blue-white mt-[2vh]">
-                    contact
-                  </a>{" "}
-                </ul>
+                <a key={index} href="" className="pl-12">
+                  contact
+                </a>
               ))}
           </div>
         </div>

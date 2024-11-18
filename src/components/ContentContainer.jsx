@@ -31,7 +31,7 @@ const ContentContainer = () => {
     <div className="flex flex-wrap pl-9 gap-4">
       <BadgeItems data={contentBoxData} />
 
-      {Array(46)
+      {Array(50 - contentBoxData.length)
         .fill()
         .map((_, index) => (
           <div
