@@ -20,7 +20,7 @@ const ContentContainer = ({ contentBoxData }) => {
               }
             >
               <img
-                src={"/manzashop/assets/aldo.jpeg"}
+                src={"/manzashops/assets/aldo.jpeg"}
                 className="w-[60px] h-[60px] rounded-[10px] bg-[#800080] text-white border-[1px] border-black shadow-[2px_2px_5px_white] hover:shadow-[2px_2px_5px_#60b3d1]"
               />
             </a>

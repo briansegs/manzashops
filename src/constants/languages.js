@@ -1,21 +1,21 @@
 export const langItems = [
   {
-    src: "/manzashop/assets/english.jpeg",
+    src: "/manzashops/assets/english.jpeg",
     name: "English",
     href: "",
   },
   {
-    src: "/manzashop/assets/spain.jpeg",
+    src: "/manzashops/assets/spain.jpeg",
     name: "Spanish",
     href: "",
   },
   {
-    src: "/manzashop/assets/french.jpeg",
+    src: "/manzashops/assets/french.jpeg",
     name: "French",
     href: "",
   },
   {
-    src: "/manzashop/assets/portu.jpeg",
+    src: "/manzashops/assets/portu.jpeg",
     name: "Portugese",
     href: "",
   },

@@ -48,21 +48,21 @@ export const contentBoxData = [
   {
     name: "nike",
     href: null,
-    src: "/manzashop/assets/nike.jpeg",
+    src: "/manzashops/assets/nike.jpeg",
   },
   {
     name: "adidas",
     href: null,
-    src: "/manzashop/assets/adidas.jpeg",
+    src: "/manzashops/assets/adidas.jpeg",
   },
   {
     name: "puma",
     href: null,
-    src: "/manzashop/assets/puma.jpeg",
+    src: "/manzashops/assets/puma.jpeg",
   },
   {
     name: "aldo",
     href: null,
-    src: "/manzashop/assets/aldo.jpeg",
+    src: "/manzashops/assets/aldo.jpeg",
   },
 ];

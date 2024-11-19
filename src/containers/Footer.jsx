@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="flex lg:flex-row flex-col w-full">
         <div className="flex flex-col items-center mr-8">
           <img
-            src="/manzashop/assets/favicon.png"
+            src="/manzashops/assets/favicon.png"
             className="w-96 border-[1px] border-white"
           />
 
