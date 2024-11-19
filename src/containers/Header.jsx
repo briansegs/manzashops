@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
-import NavLinks from "../components/nav/NavLinks";
+import NavLinks from "../components/NavLinks";
 import { navItems } from "../constants";
 
 const Header = () => {
@@ -38,16 +38,16 @@ const Header = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } pb-6 bg-navbar flex-col absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary z-10`}
+          } bg-header flex-col absolute top-20 right-0 mx-4 mt-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary z-10`}
         >
-          <div className="p-6 bg-header">
+          <div className="p-6">
             <input
               className="border-black border-[3px] rounded-[5px] w-full h-8 "
               placeholder="Search..."
             />
           </div>
 
-          <div className="w-full flex gap-4 justify-between pb-3 px-6 bg-header mb-3">
+          <div className="w-full flex gap-4 justify-between pb-3 px-6">
             <a href="#" className="text-white px-2">
               Our Mission
             </a>
@@ -57,7 +57,7 @@ const Header = () => {
             </a>
           </div>
 
-          <ul className="flex flex-col flex-1 px-6 gap-2">
+          <ul className="flex flex-col flex-1 px-6 pb-5 rounded-b-lg pt-3 gap-2 bg-secondary">
             <NavLinks navItems={navItems} />
           </ul>
         </div>

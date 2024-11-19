@@ -2,7 +2,7 @@ const ImageSlider = () => {
   return (
     <>
       <div className="relative flex-1">
-        <a href="" className="">
+        <a href="">
           <img
             src="/manzashop/assets/manza.png"
             className="w-[171vh] h-[59.5vh] object-cover rounded-[10px] border-secondary border-b-4 shadow-[10px_10px_10px_black]"

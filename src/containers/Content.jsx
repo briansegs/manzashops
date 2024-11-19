@@ -1,4 +1,5 @@
 import ContentContainer from "../components/ContentContainer";
+import { contentBoxData } from "../constants";
 import { contentGroupData1, contentGroupData2 } from "../constants";
 
 const Content = () => {
@@ -12,7 +13,7 @@ const Content = () => {
           >
             <p className="bg-black text-white text-[34px] pb-14">{title}</p>
 
-            <ContentContainer />
+            <ContentContainer contentBoxData={contentBoxData} />
           </div>
         ))}
       </div>
@@ -25,7 +26,7 @@ const Content = () => {
           >
             <p className="bg-black text-white text-[34px] pb-14">{title}</p>
 
-            <ContentContainer />
+            <ContentContainer contentBoxData={contentBoxData} />
           </div>
         ))}
       </div>
