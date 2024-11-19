@@ -10,7 +10,7 @@ const Languages = () => {
           <div key={name} className="flex gap-4 items-center group">
             <img
               src={src}
-              className="size-[5vh] rounded-full shadow-[2px_2px_5px_white] group-hover:shadow-[2px_2px_5px_#60b3d1]"
+              className="size-[5vh] object-cover rounded-full shadow-[2px_2px_5px_white] group-hover:shadow-[2px_2px_5px_#60b3d1]"
             />
 
             <div className="sm:flex flex-col gap-1 hidden">
