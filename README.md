@@ -20,14 +20,14 @@
    1. Visit the official Node.js website: https://nodejs.org.
    2. Choose the appropriate version:
 
-   - LTS (Long-Term Support): Recommended for most users, especially for production use.
-   - Current: Includes the latest features but may not be as stable as the LTS version.
+      - LTS (Long-Term Support): Recommended for most users, especially for production use.
+      - Current: Includes the latest features but may not be as stable as the LTS version.
 
    3. Download the installer for your operating system (Windows, macOS, or Linux).
    4. Run the installer and follow the installation steps:
 
-   - On Windows, ensure the option "Add to PATH" is checked during installation.
-   - On macOS or Linux, follow the instructions provided by the installer.
+      - On Windows, ensure the option "Add to PATH" is checked during installation.
+      - On macOS or Linux, follow the instructions provided by the installer.
 
 3. Verify Installation
 
