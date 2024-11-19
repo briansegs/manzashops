@@ -80,7 +80,7 @@
 
    This will start a local development server, and the terminal will display the URL where the app is running, typically http://localhost:5173.
 
-### Deployment to gh-pages
+## Deployment to gh-pages
 
 1. Run deploy commands
 
