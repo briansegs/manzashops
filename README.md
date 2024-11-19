@@ -80,7 +80,7 @@
 
    This will start a local development server, and the terminal will display the URL where the app is running, typically http://localhost:5173.
 
-## Deployment to gh-pages
+### Deployment to gh-pages
 
 1. Run deploy commands
 
@@ -94,8 +94,8 @@
 
 2. Enable GitHub Pages on your repository
 
-   Go to your repository’s Settings on GitHub.
-   Under Pages, select the branch as gh-pages (if not set automatically).
-   Save the changes.
+   Go to your repository’s **Settings** on **GitHub**.
+   Under **Pages**, select the **branch** as **gh-pages** (if not set automatically).
+   **Save** the changes.
 
    It will be available at https://your-username.github.io/your-repository-name/.
