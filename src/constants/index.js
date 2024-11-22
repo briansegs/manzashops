@@ -5,6 +5,7 @@ import {
   contentGroupData1,
   contentGroupData2,
   contentBoxData,
+  mockHref,
 } from "./content";
 
 export {
@@ -14,4 +15,5 @@ export {
   contentGroupData1,
   contentGroupData2,
   contentBoxData,
+  mockHref,
 };
