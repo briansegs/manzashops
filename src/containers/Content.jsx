@@ -39,7 +39,7 @@ const Content = () => {
   return (
     <section className="flex items-center flex-col lg:gap-28 gap-10 bg-[#121212] lg:py-28 py-10">
       <div className="flex flex-col gap-2 items-center w-full">
-        <div className="h-[440px] bg-black md:w-[95%] w-[99%] rounded-[10px] items-center p-10 flex justify-between overflow-x-auto gap-8">
+        <div className="h-[440px] bg-black xl:w-[1496px] md:w-[95%] w-[99%] rounded-[10px] items-center p-10 flex justify-between overflow-x-auto gap-8">
           {data.map(({ href, src, key }) => (
             <div
               key={key}
@@ -167,7 +167,7 @@ const Content = () => {
         ))}
       </div>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 items-center w-full">
         <div className="h-[440px] bg-black xl:w-fit md:w-[95%] w-[99%] rounded-[10px] items-center p-10 flex gap-8 xl:justify-center  overflow-x-auto">
           <div className="bg-slate-200 w-96 h-full rounded-[10px] shrink-0">
             <a href={mockHref}>
