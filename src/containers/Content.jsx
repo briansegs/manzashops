@@ -2,7 +2,6 @@ import AdBlock1 from "../components/AdBlock1";
 import AdBlock2 from "../components/AdBlock2";
 import AdBlock3 from "../components/AdBlock3";
 import BadgeBlock from "../components/BadgeBlock";
-import ContentContainer from "../components/ContentContainer";
 import { contentGroupData1, contentGroupData2 } from "../constants";
 
 const Content = () => {
