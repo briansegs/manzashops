@@ -8,21 +8,21 @@ const SpotLight = () => {
           {Array(50)
             .fill()
             .map((_, index) => (
-              <div
+              <a
                 key={index}
-                className="w-[80px] h-[80px] mb-8 rounded-[10px] bg-[#800080] text-white shadow-[2px_2px_5px_white] hover:shadow-[2px_2px_5px_#60b3d1]"
-              >
-                <a
-                  href="https://www.aldoshoes.com/us/en_US?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=aldo_us_en_search_brand_nogender_core&utm_content=653404197253&utm_term=aldo&device=c&network=g&placement=&gad_source=1&gclid=EAIaIQobChMI1_jp_KaxiQMVrm9HAR0_Sj1YEAAYASAAEgKjY_D_BwE
+                className="size-[80px] mb-8 text-white flex flex-col gap-1 capitalize"
+                href="https://www.aldoshoes.com/us/en_US?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=aldo_us_en_search_brand_nogender_core&utm_content=653404197253&utm_term=aldo&device=c&network=g&placement=&gad_source=1&gclid=EAIaIQobChMI1_jp_KaxiQMVrm9HAR0_Sj1YEAAYASAAEgKjY_D_BwE
                        "
-                >
+              >
+                <div className="rounded-[10px] bg-[#800080] text-white shadow-[2px_2px_5px_white] border-[1px] border-black hover:shadow-[2px_2px_5px_#60b3d1]">
                   <img
                     src="/manzashops/assets/aldo.jpeg"
-                    className="mr-[23px] inline-block w-[80px] h-[80px] rounded-[10px] bg-[#800080] text-white"
-                    style={{ boxShadow: "2px 2px 5px white" }}
+                    className="size-[80px] rounded-[10px] object-cover"
                   />
-                </a>
-              </div>
+                </div>
+
+                <p>aldo</p>
+              </a>
             ))}
         </div>
       </div>
