@@ -7,11 +7,31 @@ const BadgeSection = ({ data }) => (
       <div
         id={id}
         key={title}
-        className="text-white flex flex-col items-center rounded-[10px] border-[5px] border-black bg-black w-[382px] h-[350px] overflow-y-scroll"
+        className="text-white flex flex-col items-center rounded-[10px] border-[5px] border-black bg-black w-[382px] h-[350px]"
       >
-        <p className="bg-black text-white text-[34px] pb-14">{title}</p>
+        <div className="flex items-center justify-between w-full pb-6">
+          <button className="size-[70px] border-2 border-black hover:border-white rounded-xl">
+            <img
+              src="/manzashops/assets/badge/qv.png"
+              alt="quick view"
+              className="size-full rounded-lg object-cover"
+            />
+          </button>
 
-        <div className="flex flex-wrap pl-9 gap-4">
+          <p className="bg-black justify-center h-full text-center flex text-white text-3xl ">
+            {title}
+          </p>
+
+          <div className="size-[70px] border-2 border-black rounded-xl">
+            <img
+              src={btnImg}
+              alt="badge"
+              className="size-full rounded-lg object-cover "
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-wrap pl-9 pt-4 gap-4 overflow-y-scroll">
           <BadgeItems data={content} />
         </div>
       </div>

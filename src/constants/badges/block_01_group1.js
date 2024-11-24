@@ -2,7 +2,7 @@ export const block01BadgeGroup1Data = [
   {
     title: "Our Content Shop",
     id: "our-content-shop",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
     content: [
       {
         name: "nike",
@@ -249,7 +249,7 @@ export const block01BadgeGroup1Data = [
   {
     title: "Sports",
     id: "sports",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/gift2.png",
     content: [
       {
         name: "nike",
@@ -496,7 +496,7 @@ export const block01BadgeGroup1Data = [
   {
     title: "Paid Top Spot",
     id: "paid-top-spot",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/hats.png",
     content: [
       {
         name: "nike",
@@ -743,7 +743,7 @@ export const block01BadgeGroup1Data = [
   {
     title: "Bang 4 Ur buck!",
     id: "bang-4-ur-buck!",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
     content: [
       {
         name: "nike",
@@ -990,7 +990,7 @@ export const block01BadgeGroup1Data = [
   {
     title: "GetYour BestBuy",
     id: "get-your-best-buy",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
     content: [
       {
         name: "nike",

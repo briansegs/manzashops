@@ -2,7 +2,7 @@ export const block01BadgeGroup2Data = [
   {
     title: "Explore Trends",
     id: "explore-trends",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
     content: [
       {
         name: "nike",
@@ -249,7 +249,7 @@ export const block01BadgeGroup2Data = [
   {
     title: "Active Gear",
     id: "active-gear",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
     content: [
       {
         name: "nike",
@@ -496,7 +496,7 @@ export const block01BadgeGroup2Data = [
   {
     title: "Exclusive Picks",
     id: "exclusive-picks",
-    btnImg: "",
+    btnImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
     content: [
       {
         name: "nike",
