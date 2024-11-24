@@ -6,7 +6,7 @@ import { navItems } from "../constants";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="flex justify-between items-center bg-header h-[50px] px-16 xl:px-40">
+    <header className="flex justify-between items-center bg-header h-[50px] px-16 xl:px-40">
       <a href="/apl/shop1.html" className="text-white hover:text-secondary">
         Manza
       </a>
@@ -62,7 +62,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
