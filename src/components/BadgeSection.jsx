@@ -1,10 +1,18 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import BadgeItems from "./BadgeItems";
-import { RxCross1 } from "react-icons/rx";
+import QuickViewContainer from "./QuickViewContainer";
 
 const BadgeSection = ({ data }) => {
-  const [openContainer, setOpenContainer] = useState(false);
+  const [openContainer, setOpenContainer] = useState(null); // Track which item is open
+
+  const handleOpenContainer = (id) => {
+    setOpenContainer(id); // Set the ID of the item to open
+  };
+
+  const handleCloseContainer = () => {
+    setOpenContainer(null); // Close any open container
+  };
 
   useEffect(() => {
     const handleScrollLock = () => {
@@ -34,16 +42,15 @@ const BadgeSection = ({ data }) => {
 
   return (
     <div className="flex md:mx-20 mx-0 flex-col flex-wrap lg:gap-20 gap-10 lg:flex-row justify-center items-center">
-      {data.map(({ title, content, id, btnImg }) => (
-        <>
+      {data.map(({ title, content, id, btnImg, sections }) => (
+        <React.Fragment key={id}>
           <div
             id={id}
-            key={title}
             className="text-white flex flex-col items-center rounded-[10px] border-[5px] border-black bg-black w-[382px] h-[350px]"
           >
             <div className="flex items-center justify-between w-full pb-6">
               <button
-                onClick={() => setOpenContainer(true)}
+                onClick={() => handleOpenContainer(id)}
                 type="button"
                 className="size-[70px] border-2 border-black hover:border-white rounded-xl"
               >
@@ -73,24 +80,13 @@ const BadgeSection = ({ data }) => {
           </div>
 
           {/* Quick view menu */}
-          {openContainer && (
-            <div
-              className={
-                "fixed bg-black flex items-center justify-center bg-opacity-20 inset-0 z-50 "
-              }
-            >
-              <div className="size-[500px] bg-header rounded-lg  border-4 border-secondary">
-                <button
-                  type="button"
-                  onClick={() => setOpenContainer(false)}
-                  className="flex"
-                >
-                  <RxCross1 className="text-white size-7" />
-                </button>
-              </div>
-            </div>
+          {openContainer === id && (
+            <QuickViewContainer
+              handleCloseContainer={handleCloseContainer}
+              sections={sections}
+            />
           )}
-        </>
+        </React.Fragment>
       ))}
     </div>
   );
