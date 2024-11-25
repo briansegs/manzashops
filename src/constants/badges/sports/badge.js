@@ -1,10 +1,10 @@
-import { section01Categories } from "./categories/section01/section01Categories";
-import { section02Categories } from "./categories/section02/section02Categories";
-import { section03Categories } from "./categories/section03/section03Categories";
-import { section04Categories } from "./categories/section04/section04Categories";
-import { section05Categories } from "./categories/section05/section05Categories";
-import { section06Categories } from "./categories/section06/section06Categories";
-import { section07Categories } from "./categories/section07/section07Categories";
+import { section01Categories } from "./sections/section01/section01Categories";
+import { section02Categories } from "./sections/section02/section02Categories";
+import { section03Categories } from "./sections/section03/section03Categories";
+import { section04Categories } from "./sections/section04/section04Categories";
+import { section05Categories } from "./sections/section05/section05Categories";
+import { section06Categories } from "./sections/section06/section06Categories";
+import { section07Categories } from "./sections/section07/section07Categories";
 import { content } from "./content";
 
 export const sports = {
