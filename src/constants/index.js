@@ -1,6 +1,6 @@
 import { navItems } from "./nav";
 import { langItems } from "./languages";
-import { mockHref } from "./content";
+import { mockHref, adRow1data001 } from "./content";
 import {
   block01BadgeGroup1Data,
   block01BadgeGroup2Data,
@@ -20,4 +20,5 @@ export {
   block02BadgeGroup2Data,
   block03BadgeGroup1Data,
   block03BadgeGroup2Data,
+  adRow1data001,
 };
