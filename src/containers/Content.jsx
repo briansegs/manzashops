@@ -3,6 +3,8 @@ import AdBlock2 from "../components/AdBlock2";
 import AdBlock3 from "../components/AdBlock3";
 import AdRow01 from "../components/AdRow01";
 import AdRow02 from "../components/AdRow02";
+import AdRow03 from "../components/AdRow03";
+import AdRow04 from "../components/AdRow04";
 import BadgeSection from "../components/BadgeSection";
 import {
   block01BadgeGroup1Data,
@@ -39,7 +41,26 @@ const Content = () => {
 
       <BadgeSection data={block01BadgeGroup2Data} />
 
-      <AdBlock2 />
+      <AdBlock
+        ads={
+          <>
+            <AdRow03
+              adHref={mockHref}
+              adSrc={"/manzashops/assets/ad/clothes.jpeg"}
+              adAlt={"clothes"}
+            />
+
+            <AdRow04
+              ad1Href={mockHref}
+              ad1Src={"/manzashops/assets/ad/perfume2.jpeg"}
+              ad1Alt={"perfume2"}
+              ad2Href={mockHref}
+              ad2Src={"/manzashops/assets/ad/target1.jpeg"}
+              ad2Alt={"target1"}
+            />
+          </>
+        }
+      />
 
       <BadgeSection data={block02BadgeGroup1Data} />
 
