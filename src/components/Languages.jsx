@@ -1,12 +1,12 @@
-import { langItems } from "../constants";
+/* eslint-disable react/prop-types */
 
-const Languages = () => {
+const Languages = ({ data }) => {
   return (
     <div className="bg-black lg:w-72 w-full lg:h-[60vh] h-full flex flex-col rounded-[10px]">
       <p className="text-[#f2f2f2] lg:mb-[10vh] pl-2">Choose Your Language</p>
 
       <div className="flex lg:flex-col flex-row sm:gap-4 gap-6 px-6 lg:py-0 py-6">
-        {langItems.map(({ src, name, href }) => (
+        {data.map(({ src, name, href }) => (
           <div key={name} className="flex gap-4 items-center group">
             <img
               src={src}
