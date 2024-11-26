@@ -1,13 +1,31 @@
 import { navItems } from "./nav";
-import { itemData } from "./suggestions";
 import { langItems } from "./languages";
-import { contentGroupData1, contentGroupData2, mockHref } from "./content";
+import {
+  mockHref,
+  adRow1data001,
+  adRow05data001,
+  adRow05data002,
+} from "./content";
+import {
+  block01BadgeGroup1Data,
+  block01BadgeGroup2Data,
+  block02BadgeGroup1Data,
+  block02BadgeGroup2Data,
+  block03BadgeGroup1Data,
+  block03BadgeGroup2Data,
+} from "./badges/badgeBlockGroups";
 
 export {
   navItems,
-  itemData,
   langItems,
-  contentGroupData1,
-  contentGroupData2,
   mockHref,
+  block01BadgeGroup1Data,
+  block01BadgeGroup2Data,
+  block02BadgeGroup1Data,
+  block02BadgeGroup2Data,
+  block03BadgeGroup1Data,
+  block03BadgeGroup2Data,
+  adRow1data001,
+  adRow05data001,
+  adRow05data002,
 };
