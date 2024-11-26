@@ -12,61 +12,37 @@ const Footer = () => {
         </div>
 
         <div className="flex lg:w-7/12 w-full justify-around">
-          <div className="flex flex-col gap-[15px]">
-            <p className="text-[28px]">more</p>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
+          <div>
+            <p className="text-[28px] mb-[15px]">more</p>
+            <div className="pl-12 flex flex-col gap-[15px]">
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+            </div>
           </div>
 
-          <div className="flex flex-col gap-[15px]">
-            <p className="text-[28px]">more</p>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
+          <div>
+            <p className="text-[28px] mb-[15px]">more</p>
+            <div className="pl-12 flex flex-col gap-[15px]">
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+            </div>
           </div>
 
-          <div className="flex flex-col gap-[15px]">
-            <p className="text-[28px]">more</p>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
-            <a href="" className="pl-12">
-              contact
-            </a>
+          <div>
+            <p className="text-[28px] mb-[15px]">more</p>
+            <div className="pl-12 flex flex-col gap-[15px]">
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+              <a href="">contact</a>
+            </div>
           </div>
         </div>
       </div>
@@ -76,13 +52,13 @@ const Footer = () => {
           Socials
         </p>
 
-        <ul className="flex md:pl-8 pl-2 md:gap-10 gap-2 lg:w-1/2 w-full justify-around md:justify-start md:mt-12 mt-2">
+        <div className="flex md:pl-8 pl-2 md:gap-10 gap-2 lg:w-1/2 w-full justify-around md:justify-start md:mt-12 mt-2">
           <a href="">contact</a>
           <a href="">contact</a>
           <a href="">contact</a>
           <a href="">contact</a>
           <a href="">contact</a>
-        </ul>
+        </div>
       </div>
     </footer>
   );
