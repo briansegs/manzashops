@@ -18,7 +18,7 @@ const Suggestions = () => {
   };
 
   return (
-    <div className="flex items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap sticky top-0 z-50 overflow-x-auto h-32">
+    <div className="flex items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap sticky px-2 top-0 z-50 overflow-x-auto h-32">
       {[
         block01BadgeGroup1Data,
         block01BadgeGroup2Data,
