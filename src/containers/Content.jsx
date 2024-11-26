@@ -1,10 +1,9 @@
 import AdBlock from "../components/AdBlock";
-import AdBlock2 from "../components/AdBlock2";
-import AdBlock3 from "../components/AdBlock3";
 import AdRow01 from "../components/AdRow01";
 import AdRow02 from "../components/AdRow02";
 import AdRow03 from "../components/AdRow03";
 import AdRow04 from "../components/AdRow04";
+import AdRow05 from "../components/AdRow05";
 import BadgeSection from "../components/BadgeSection";
 import {
   block01BadgeGroup1Data,
@@ -14,6 +13,8 @@ import {
   block03BadgeGroup1Data,
   block03BadgeGroup2Data,
   adRow1data001,
+  adRow05data001,
+  adRow05data002,
   mockHref,
 } from "../constants";
 
@@ -66,7 +67,15 @@ const Content = () => {
 
       <BadgeSection data={block02BadgeGroup2Data} />
 
-      <AdBlock3 />
+      <AdBlock
+        ads={
+          <>
+            <AdRow05 data={adRow05data001} />
+
+            <AdRow05 data={adRow05data002} />
+          </>
+        }
+      />
 
       <BadgeSection data={block03BadgeGroup1Data} />
 
