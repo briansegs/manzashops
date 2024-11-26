@@ -3,8 +3,8 @@ import { itemData } from "../constants/spotlight";
 
 const SpotLight = () => {
   return (
-    <section className="pt-[2vh] flex flex-col w-full gap-6 bg-[#121212] px-[6vh]">
-      <div className="border-[5px] border-black rounded-[10px] w-fit flex flex-col bg-black shadow-[10px_10px_10px_black]">
+    <section className="pt-[2vh] flex flex-col w-full gap-10 bg-[#121212] px-[6vh]">
+      <div className="border-[5px] border-black rounded-[10px] w-fit flex flex-col mt-4 bg-black shadow-[10px_10px_10px_black]">
         <p className="text-[24px] text-white pb-2 pl-[2vh]">SPotLight</p>
 
         <div className="flex flex-wrap gap-4 pt-[22px] px-[28px] h-[272px] overflow-y-scroll">
