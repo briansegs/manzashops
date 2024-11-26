@@ -3,24 +3,15 @@ import { RxCross1 } from "react-icons/rx";
 import ProductCard from "./ProductCard";
 import { useEffect, useState } from "react";
 
-// import { sections } from "../constants/badges/our-content-shop/sections";
-
 const QuickViewContainer = ({ handleCloseContainer, sections }) => {
-  if (!sections || sections.length === 0) {
-    console.log("sections: ", sections);
-    console.warn("Sections is empty or undefined");
-  }
-
   const [active, setActive] = useState("main");
   const [localSections, setLocalSections] = useState(sections || []);
-  console.log("active: ", active);
+
   const activeSection = localSections?.filter(
     ({ sectionName }) => sectionName === active
   );
-  console.log("activeSection: ", activeSection);
 
   useEffect(() => {
-    // Update localSections whenever sections prop changes
     if (sections) {
       setLocalSections(sections);
     }
@@ -29,7 +20,7 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
   return (
     <div
       className={
-        "fixed bg-black flex items-center justify-center size-full bg-opacity-20 inset-0 z-50 "
+        "fixed bg-black flex items-center justify-center size-full bg-opacity-50 inset-0 z-50 "
       }
     >
       <div className="lg:w-[75%] xl:w-[60%] w-[95%] flex flex-col h-[90%] bg-black rounded-lg border-2 border-secondary relative">
