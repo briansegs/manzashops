@@ -6,16 +6,40 @@ import AdRow04 from "../components/AdRow04";
 import AdRow05 from "../components/AdRow05";
 import BadgeSection from "../components/BadgeSection";
 import {
-  block01BadgeGroup1Data,
-  block01BadgeGroup2Data,
-  block02BadgeGroup1Data,
-  block02BadgeGroup2Data,
-  block03BadgeGroup1Data,
-  block03BadgeGroup2Data,
   adRow1data001,
   adRow05data001,
   adRow05data002,
   mockHref,
+  ourContentShop,
+  sports,
+  paidTopSpot,
+  bangUrBuck,
+  getYourBestBuy,
+  exploreTrends,
+  activeGear,
+  exclusivePicks,
+  valueVault,
+  shopSmarter,
+  freshFinds,
+  gearUp,
+  premiumPicks,
+  dealHunters,
+  smartPicks,
+  topTrends,
+  adventureReady,
+  eliteChoices,
+  savvySavings,
+  brightBuys,
+  latestLooks,
+  outdoorEssentials,
+  premiumSelections,
+  budgetFinds,
+  smartChoices,
+  fashionForward,
+  inGear,
+  luxuryLines,
+  savingsSpotlight,
+  bestDeals,
 } from "../constants";
 
 const Content = () => {
@@ -38,9 +62,19 @@ const Content = () => {
         }
       />
 
-      <BadgeSection data={block01BadgeGroup1Data} />
+      <BadgeSection
+        data={[ourContentShop, sports, paidTopSpot, bangUrBuck, getYourBestBuy]}
+      />
 
-      <BadgeSection data={block01BadgeGroup2Data} />
+      <BadgeSection
+        data={[
+          exploreTrends,
+          activeGear,
+          exclusivePicks,
+          valueVault,
+          shopSmarter,
+        ]}
+      />
 
       <AdBlock
         ads={
@@ -63,9 +97,19 @@ const Content = () => {
         }
       />
 
-      <BadgeSection data={block02BadgeGroup1Data} />
+      <BadgeSection
+        data={[freshFinds, gearUp, premiumPicks, dealHunters, smartPicks]}
+      />
 
-      <BadgeSection data={block02BadgeGroup2Data} />
+      <BadgeSection
+        data={[
+          topTrends,
+          adventureReady,
+          eliteChoices,
+          savvySavings,
+          brightBuys,
+        ]}
+      />
 
       <AdBlock
         ads={
@@ -77,9 +121,25 @@ const Content = () => {
         }
       />
 
-      <BadgeSection data={block03BadgeGroup1Data} />
+      <BadgeSection
+        data={[
+          latestLooks,
+          outdoorEssentials,
+          premiumSelections,
+          budgetFinds,
+          smartChoices,
+        ]}
+      />
 
-      <BadgeSection data={block03BadgeGroup2Data} />
+      <BadgeSection
+        data={[
+          fashionForward,
+          inGear,
+          luxuryLines,
+          savingsSpotlight,
+          bestDeals,
+        ]}
+      />
     </section>
   );
 };
