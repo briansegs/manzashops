@@ -1,18 +1,20 @@
+import { Link } from "react-router";
+
 /* eslint-disable react/prop-types */
 const NavLinks = ({ navItems }) => (
   <>
-    {navItems.map(({ href, name, line, black }) => (
-      <li
+    {navItems.map(({ path, name, line, black }) => (
+      <div
         key={name}
         className={`hover:text-[#0000ff] ${
           black ? "text-black underline text-[22px]" : "text-white"
         }`}
       >
-        <a href={href}>
+        <Link to={path}>
           {line ? "| " : ""}
           {name}
-        </a>
-      </li>
+        </Link>
+      </div>
     ))}
   </>
 );
