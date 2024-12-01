@@ -15,7 +15,7 @@ const GtttSection = ({ data }) => {
             {adRow1.map(({ id, href, src, alt }) => (
               <div
                 key={id}
-                className="border-[2px] border-black bg-slate-500 w-96 h-56 shrink-0"
+                className="border-[2px] border-white hover:border-secondary w-96 h-56 shrink-0"
               >
                 <a href={href}>
                   <img src={src} alt={alt} className="object-fill size-full" />
@@ -28,7 +28,7 @@ const GtttSection = ({ data }) => {
             {adRow2.map(({ id, href, src, alt }) => (
               <div
                 key={id}
-                className="border-[2px] border-black bg-slate-500 w-96 h-56 shrink-0"
+                className="border-[2px]  border-white hover:border-secondary w-96 h-56 shrink-0"
               >
                 <a href={href}>
                   <img src={src} alt={alt} className="object-fill size-full" />
