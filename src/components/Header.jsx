@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
-import NavLinks from "../components/NavLinks";
+import NavLinks from "./NavLinks";
 import { navItems } from "../constants";
 import { Link } from "react-router";
 

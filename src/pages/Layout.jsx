@@ -1,5 +1,5 @@
-import Header from "../containers/Header";
-import Menu from "../containers/Menu";
+import Header from "../components/Header";
+import Menu from "../components/Menu";
 import Footer from "../containers/Footer";
 import { Outlet } from "react-router";
 
