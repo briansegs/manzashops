@@ -2,14 +2,15 @@ import { useState } from "react";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import NavLinks from "../components/NavLinks";
 import { navItems } from "../constants";
+import { Link } from "react-router";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <header className="flex justify-between items-center bg-header h-[50px] px-16 xl:px-40">
-      <a href="/apl/shop1.html" className="text-white hover:text-secondary">
+      <Link to="/" className="text-white hover:text-secondary">
         Manza
-      </a>
+      </Link>
 
       <input
         className="border-black border-[3px] rounded-[5px] w-[480px] xl:w-[550px] h-8 hidden lg:inline-block"
@@ -17,13 +18,13 @@ const Header = () => {
       />
 
       <div className="lg:flex lg:gap-16 md:gap-4 hidden">
-        <a href="#" className="text-white px-2">
+        <Link to="/mission" className="text-white px-2">
           Our Mission
-        </a>
+        </Link>
 
-        <a href="checkout.html" className="text-white px-2">
+        <Link to="/checkout" className="text-white px-2">
           Support Us
-        </a>
+        </Link>
       </div>
 
       <div className="lg:hidden flex flex-1 justify-end items-center">
@@ -48,13 +49,13 @@ const Header = () => {
           </div>
 
           <div className="w-full flex gap-4 justify-between pb-3 px-6">
-            <a href="#" className="text-white px-2">
+            <Link to="/mission" className="text-white px-2">
               Our Mission
-            </a>
+            </Link>
 
-            <a href="checkout.html" className="text-white px-2">
+            <Link to="/checkout" className="text-white px-2">
               Support Us
-            </a>
+            </Link>
           </div>
 
           <ul className="flex flex-col flex-1 px-6 pb-5 rounded-b-lg pt-3 gap-2 bg-secondary">

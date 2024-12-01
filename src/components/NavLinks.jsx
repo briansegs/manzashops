@@ -1,18 +1,25 @@
 /* eslint-disable react/prop-types */
+import { NavLink } from "react-router";
+
 const NavLinks = ({ navItems }) => (
   <>
-    {navItems.map(({ href, name, line, black }) => (
-      <li
+    {navItems.map(({ path, name }) => (
+      <NavLink
         key={name}
-        className={`hover:text-[#0000ff] ${
-          black ? "text-black underline text-[22px]" : "text-white"
-        }`}
+        to={path}
+        className={({ isActive }) =>
+          isActive
+            ? "text-black text-[22px] hover:text-[#0000ff]"
+            : "text-white hover:text-[#0000ff]"
+        }
       >
-        <a href={href}>
-          {line ? "| " : ""}
-          {name}
-        </a>
-      </li>
+        {({ isActive }) => (
+          <>
+            <span>{isActive && "| "}</span>{" "}
+            <span className={isActive && "underline"}>{name}</span>
+          </>
+        )}
+      </NavLink>
     ))}
   </>
 );
