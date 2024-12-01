@@ -1,7 +1,7 @@
-import Content from "../containers/Content";
-import Hero from "../containers/Hero";
-import SpotLight from "../containers/SpotLight";
-import Suggestions from "../containers/Suggestions";
+import Content from "../components/Dash/Content";
+import Hero from "../components/Dash/Hero";
+import SpotLight from "../components/Dash/SpotLight";
+import Suggestions from "../components/Dash/Suggestions";
 
 const Dash = () => {
   return (

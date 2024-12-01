@@ -1,10 +1,10 @@
-import AdBlock from "../components/AdBlock";
-import AdRow01 from "../components/AdRow01";
-import AdRow02 from "../components/AdRow02";
-import AdRow03 from "../components/AdRow03";
-import AdRow04 from "../components/AdRow04";
-import AdRow05 from "../components/AdRow05";
-import BadgeSection from "../components/BadgeSection";
+import AdBlock from "./AdBlock";
+import AdRow01 from "./AdRow01";
+import AdRow02 from "./AdRow02";
+import AdRow03 from "./AdRow03";
+import AdRow04 from "./AdRow04";
+import AdRow05 from "./AdRow05";
+import BadgeSection from "./BadgeSection";
 import {
   adRow1data001,
   adRow05data001,
@@ -40,7 +40,7 @@ import {
   luxuryLines,
   savingsSpotlight,
   bestDeals,
-} from "../constants";
+} from "../../constants/Dash";
 
 const Content = () => {
   return (
