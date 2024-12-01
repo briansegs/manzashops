@@ -7,6 +7,7 @@ const NavLinks = ({ navItems }) => (
       <NavLink
         key={name}
         to={path}
+        end={path === "/manzashops/"}
         className={({ isActive }) =>
           isActive
             ? "text-black text-[22px] hover:text-[#0000ff]"

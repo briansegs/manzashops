@@ -1,38 +1,38 @@
 export const navItems = [
   {
-    path: "/",
+    path: "/manzashops/",
     name: "Home",
   },
   {
-    path: "/dash",
+    path: "dash",
     name: "Dash",
   },
   {
-    path: "/deals",
+    path: "deals",
     name: "Deals",
   },
   {
-    path: "/services",
+    path: "services",
     name: "Services",
   },
   {
-    path: "/jobs",
+    path: "jobs",
     name: "Jobs",
   },
   {
-    path: "/menus",
+    path: "menus",
     name: "Menus",
   },
   {
-    path: "/movies",
+    path: "movies",
     name: "Movies",
   },
   {
-    path: "/newsletter",
+    path: "newsletter",
     name: "Newsletter",
   },
   {
-    path: "/great-things-to-try",
+    path: "great-things-to-try",
     name: "Great Things to try",
   },
 ];

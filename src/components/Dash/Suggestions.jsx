@@ -29,7 +29,7 @@ import {
   luxuryLines,
   savingsSpotlight,
   bestDeals,
-} from "../constants";
+} from "../../constants/Dash";
 
 const Suggestions = () => {
   const scrollToElement = (id) => {

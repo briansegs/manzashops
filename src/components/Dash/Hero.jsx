@@ -1,6 +1,6 @@
-import ImageSlider from "../components/ImageSlider";
-import Languages from "../components/Languages";
-import { langItems } from "../constants";
+import ImageSlider from "./ImageSlider";
+import Languages from "./Languages";
+import { langItems } from "../../constants/Dash";
 
 const Hero = () => {
   return (

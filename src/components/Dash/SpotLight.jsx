@@ -1,6 +1,6 @@
-import SpotLightAdCard from "../components/SpotLightAdCard";
-import SpotLightBadgeContainer from "../components/SpotLightBadgeContainer";
-import { itemData } from "../constants/spotlight";
+import SpotLightAdCard from "./SpotLightAdCard";
+import SpotLightBadgeContainer from "./SpotLightBadgeContainer";
+import { itemData } from "../../constants/Dash";
 
 const SpotLight = () => {
   return (
