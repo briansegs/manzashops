@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { RxCross1 } from "react-icons/rx";
 import ProductCard from "./ProductCard";
 import { useEffect, useState } from "react";

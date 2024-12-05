@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 const BadgeItems = ({ data }) => (
   <>
     {data.map((item, index) => (
