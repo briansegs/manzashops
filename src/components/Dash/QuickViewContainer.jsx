@@ -3,11 +3,13 @@ import ProductCard from "./ProductCard";
 import { useEffect, useState } from "react";
 
 const QuickViewContainer = ({ handleCloseContainer, sections }) => {
-  const [active, setActive] = useState("main");
+  const firstSection = sections[0].sectionName;
+
+  const [activeSection, setActiveSection] = useState(firstSection || "");
   const [localSections, setLocalSections] = useState(sections || []);
 
-  const activeSection = localSections?.filter(
-    ({ sectionName }) => sectionName === active
+  const activeSectionData = localSections?.filter(
+    ({ sectionName }) => sectionName === activeSection
   );
 
   useEffect(() => {
@@ -32,32 +34,32 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
             <RxCross1 className="text-white size-7" />
           </button>
 
-          <p className="text-white text-lg">Quick view</p>
+          <p className="text-white text-xl capitalize">Quick view</p>
         </div>
 
-        <div className="flex px-1 items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap overflow-x-auto min-h-32">
-          {sections?.map(({ sectionName, sectionImg }) => (
+        <div className="flex px-2 items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap overflow-x-auto min-h-fit py-8">
+          {sections?.map(({ sectionName }) => (
             <button
               key={sectionName}
               type="button"
-              onClick={() => setActive(sectionName)}
-              className="capitalize text-[28px] text-white border-[1px] border-[#1b1e23] bg-black rounded-full flex size-[100px] justify-center items-center hover:text-secondary shadow-[3px_3px_3px_white] hover:shadow-[3px_3px_3px_#60b3d1] overflow-hidden shrink-0"
+              onClick={() => setActiveSection(sectionName)}
+              className={` ${
+                sectionName == activeSection
+                  ? "text-secondary border-secondary"
+                  : "text-white border-white"
+              } border-[1px] rounded-[10px] flex w-fit justify-center items-center hover:border-secondary hover:text-secondary overflow-hidden shrink-0`}
             >
-              <img
-                src={sectionImg}
-                alt={"Test"}
-                className="object-cover size-full"
-              />
+              <p className="capitalize text-2xl px-5 py-2">{sectionName}</p>
             </button>
           ))}
         </div>
 
-        <div className="flex size-full items-center flex-col overflow-y-hidden">
-          <p className="text-white text-lg">Products</p>
+        <div className="flex size-full pt-2 items-center flex-col overflow-y-hidden">
+          <p className="text-white text-xl capitalize">{activeSection}</p>
 
           <div className="size-full flex flex-col gap-10 pt-4 overflow-y-auto">
-            {activeSection &&
-              activeSection[0]?.categories?.map(
+            {activeSectionData &&
+              activeSectionData[0]?.categories?.map(
                 ({ categoryTitle, products }) => (
                   <div key={categoryTitle} className="w-full">
                     <p className="text-white pl-4 pb-3 capitalize">
