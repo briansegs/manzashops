@@ -1,10 +1,6 @@
 import { RxCross1 } from "react-icons/rx";
 import ProductCard from "./ProductCard";
-import { useEffect, useState } from "react";
-import QvAdRow01 from "./quickView/QvAdRow01";
-import QvAdRow02 from "./quickView/QvAdRow02";
-import QvAdRow03 from "./quickView/QvAdRow03";
-import QvAdRow04 from "./quickView/QvAdRow04";
+import React, { useEffect, useState } from "react";
 
 const QuickViewContainer = ({ handleCloseContainer, sections }) => {
   const firstSection = sections[0].sectionName;
@@ -21,25 +17,6 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
       setLocalSections(sections);
     }
   }, [sections]);
-
-  let ad01, ad02, ad03, ad04, ad05, ad06, ad07, ad08, ad09, ad10, ad11, ad12;
-
-  if (activeSectionData.ad) {
-    ({
-      ad01,
-      ad02,
-      ad03,
-      ad04,
-      ad05,
-      ad06,
-      ad07,
-      ad08,
-      ad09,
-      ad10,
-      ad11,
-      ad12,
-    } = activeSectionData.ads);
-  }
 
   return (
     <div
@@ -83,17 +60,9 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
           <div className="w-full items-center flex flex-col gap-10 pt-4 overflow-y-auto ">
             {activeSectionData.ad ? (
               <div className="w-full flex flex-col pb-6">
-                <QvAdRow01 ad1={ad01} ad2={ad02} />
-
-                <QvAdRow02 ad1={ad03} ad2={ad04} />
-
-                <QvAdRow03 ad1={ad05} ad2={ad06} ad3={ad07} />
-
-                <QvAdRow04 ad={ad08} />
-
-                <QvAdRow02 ad1={ad09} ad2={ad10} />
-
-                <QvAdRow01 ad1={ad11} ad2={ad12} />
+                {activeSectionData.ads.map(({ key, adRow }) =>
+                  React.cloneElement(adRow, { key })
+                )}
               </div>
             ) : (
               activeSectionData.categories.map(
@@ -102,6 +71,7 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
                     <p className="text-white pl-4 pb-3 capitalize">
                       {categoryTitle}
                     </p>
+
                     <div className="flex size-full gap-8 overflow-x-scroll px-8">
                       {products?.map(
                         ({ title, href, img, name, price, description }) => (
