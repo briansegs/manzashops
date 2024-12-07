@@ -1,3 +1,6 @@
+changes made part 1
+
+
 # ManzaShop
 
 ## Setup
