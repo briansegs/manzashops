@@ -7,6 +7,7 @@ import { section06Categories } from "./sections/section06/section06Categories";
 import { section07Categories } from "./sections/section07/section07Categories";
 import { content } from "./content";
 import { adsSection01 } from "./sections/adsSection01";
+import { adsSection02 } from "./sections/adsSection02";
 
 export const ourContentShop = {
   title: "Our Content Shop",
@@ -61,6 +62,12 @@ export const ourContentShop = {
       ad: true,
       sectionName: "Ads 1",
       ads: adsSection01,
+    },
+    {
+      id: "adSec0002",
+      ad: true,
+      sectionName: "Ads 2",
+      ads: adsSection02,
     },
   ],
 };
