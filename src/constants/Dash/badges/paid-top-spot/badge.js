@@ -6,6 +6,8 @@ import { section05Categories } from "./sections/section05/section05Categories";
 import { section06Categories } from "./sections/section06/section06Categories";
 import { section07Categories } from "./sections/section07/section07Categories";
 import { content } from "./content";
+import { adsSection01 } from "./sections/adsSection01";
+import { adsSection02 } from "./sections/adsSection02";
 
 export const paidTopSpot = {
   title: "Paid Top Spot",
@@ -54,6 +56,18 @@ export const paidTopSpot = {
       sectionName: "recommended",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
+    },
+    {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
+    },
+    {
+      id: "adSec0002",
+      ad: true,
+      sectionName: "Ads 2",
+      ads: adsSection02,
     },
   ],
 };
