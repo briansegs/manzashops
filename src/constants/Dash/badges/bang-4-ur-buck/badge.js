@@ -55,5 +55,11 @@ export const bangUrBuck = {
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
+    {
+      id: "sec0008",
+      sectionName: "Collections",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
+    },
   ],
 };
