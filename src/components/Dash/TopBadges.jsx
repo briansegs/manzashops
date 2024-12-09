@@ -65,7 +65,7 @@ const TopBadges = ({ data }) => {
                     />
                   </button>
 
-                  <p className="bg-black justify-center h-full text-center flex text-white text-3xl ">
+                  <p className="bg-black justify-center h-full text-center flex text-white text-3xl capitalize">
                     {title}
                   </p>
 
