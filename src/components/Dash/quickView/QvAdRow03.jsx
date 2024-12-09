@@ -1,6 +1,6 @@
 const QvAdRow03 = ({ ad1, ad2, ad3 }) => {
   return (
-    <div className="flex pr-6 w-full pb-6 gap-6 justify-between xl:justify-center overflow-x-scroll">
+    <div className="flex pr-6 w-full pb-6 gap-6 justify-between xl:justify-center overflow-x-auto">
       <div />
 
       {[ad1, ad2, ad3].map(({ href, img, alt, id }) => (

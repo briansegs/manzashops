@@ -1,6 +1,6 @@
 const QvAdRow02 = ({ ad1, ad2 }) => {
   return (
-    <div className="flex w-full pr-6 pb-6 gap-6 justify-between xl:justify-center overflow-x-scroll">
+    <div className="flex w-full pr-6 pb-6 gap-6 justify-between xl:justify-center overflow-x-auto">
       <div />
 
       <div className="border-[2px] border-white hover:border-secondary size-72 shrink-0">
