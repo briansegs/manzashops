@@ -1,14 +1,16 @@
 import { RxCross1 } from "react-icons/rx";
 import ProductCard from "./ProductCard";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const QuickViewContainer = ({ handleCloseContainer, sections }) => {
-  const [active, setActive] = useState("main");
+  const firstSection = sections[0].sectionName;
+
+  const [activeSection, setActiveSection] = useState(firstSection || "");
   const [localSections, setLocalSections] = useState(sections || []);
 
-  const activeSection = localSections?.filter(
-    ({ sectionName }) => sectionName === active
-  );
+  const activeSectionData = localSections?.filter(
+    ({ sectionName }) => sectionName === activeSection
+  )[0];
 
   useEffect(() => {
     if (sections) {
@@ -22,7 +24,7 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
         "fixed bg-black flex items-center justify-center size-full bg-opacity-50 inset-0 z-50 "
       }
     >
-      <div className="lg:w-[75%] xl:w-[60%] w-[95%] flex flex-col h-[90%] bg-black rounded-lg border-2 border-secondary relative">
+      <div className="lg:w-[75%] xl:w-[70%] 2xl:w-[60%] w-[95%] flex flex-col h-[90%] bg-black rounded-lg border-2 border-secondary relative">
         <div className="flex justify-center w-full my-1">
           <button
             type="button"
@@ -32,38 +34,45 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
             <RxCross1 className="text-white size-7" />
           </button>
 
-          <p className="text-white text-lg">Quick view</p>
+          <p className="text-white text-xl capitalize">Quick view</p>
         </div>
 
-        <div className="flex px-1 items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap overflow-x-auto min-h-32">
-          {sections?.map(({ sectionName, sectionImg }) => (
+        <div className="flex px-2 items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap overflow-x-auto overflow-y-hidden py-8">
+          {sections?.map(({ sectionName }) => (
             <button
               key={sectionName}
               type="button"
-              onClick={() => setActive(sectionName)}
-              className="capitalize text-[28px] text-white border-[1px] border-[#1b1e23] bg-black rounded-full flex size-[100px] justify-center items-center hover:text-secondary shadow-[3px_3px_3px_white] hover:shadow-[3px_3px_3px_#60b3d1] overflow-hidden shrink-0"
+              onClick={() => setActiveSection(sectionName)}
+              className={` ${
+                sectionName == activeSection
+                  ? "text-secondary border-secondary"
+                  : "text-white border-white"
+              } border-[1px] rounded-[10px] flex w-fit justify-center items-center hover:border-secondary hover:text-secondary shrink-0`}
             >
-              <img
-                src={sectionImg}
-                alt={"Test"}
-                className="object-cover size-full"
-              />
+              <p className="capitalize text-2xl px-5 py-2">{sectionName}</p>
             </button>
           ))}
         </div>
 
         <div className="flex size-full items-center flex-col overflow-y-hidden">
-          <p className="text-white text-lg">Products</p>
+          <p className="text-white py-2 text-xl capitalize">{activeSection}</p>
 
-          <div className="size-full flex flex-col gap-10 pt-4 overflow-y-auto">
-            {activeSection &&
-              activeSection[0]?.categories?.map(
+          <div className="w-full items-center flex flex-col gap-10 pt-4 overflow-y-auto ">
+            {activeSectionData.ad ? (
+              <div className="w-full flex flex-col pb-6">
+                {activeSectionData.ads.map(({ key, adRow }) =>
+                  React.cloneElement(adRow, { key })
+                )}
+              </div>
+            ) : (
+              activeSectionData.categories.map(
                 ({ categoryTitle, products }) => (
                   <div key={categoryTitle} className="w-full">
                     <p className="text-white pl-4 pb-3 capitalize">
                       {categoryTitle}
                     </p>
-                    <div className="flex size-full gap-8 overflow-x-scroll pl-8">
+
+                    <div className="flex size-full gap-8 overflow-x-scroll px-8">
                       {products?.map(
                         ({ title, href, img, name, price, description }) => (
                           <ProductCard
@@ -80,7 +89,8 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
                     </div>
                   </div>
                 )
-              )}
+              )
+            )}
           </div>
         </div>
       </div>

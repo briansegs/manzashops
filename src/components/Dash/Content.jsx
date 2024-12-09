@@ -40,7 +40,12 @@ import {
   luxuryLines,
   savingsSpotlight,
   bestDeals,
+  pcRichard,
+  abercrombie,
+  target,
+  bestBuy,
 } from "../../constants/Dash";
+import TopBadges from "./TopBadges";
 
 const Content = () => {
   return (
@@ -60,6 +65,19 @@ const Content = () => {
             />
           </>
         }
+      />
+
+      <TopBadges
+        data={[
+          pcRichard,
+          target,
+          abercrombie,
+          bestBuy,
+          pcRichard,
+          target,
+          abercrombie,
+          bestBuy,
+        ]}
       />
 
       <BadgeSection
