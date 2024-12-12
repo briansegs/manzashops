@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 const AdRow03 = ({ adHref, adSrc, adAlt }) => (
   <div className="bg-black rounded-[10px] xl:w-fit md:w-[95%] w-[99%]">
     <h3 className="text-white text-[24px] pl-5 pt-2">Ads</h3>

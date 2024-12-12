@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 const Languages = ({ data }) => {
   return (
     <div className="bg-black lg:w-72 w-full lg:h-[60vh] h-full flex flex-col rounded-[10px]">

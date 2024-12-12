@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const GtttSection = ({ data }) => {
   const { id, title, subTitle, adRow1, adRow2 } = data;
   return (

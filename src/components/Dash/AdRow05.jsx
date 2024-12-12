@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 const AdRow05 = ({ data }) => (
   <div className="bg-black xl:w-fit md:w-[95%] w-[99%] rounded-[10px]">
     <h3 className="text-white text-[24px] pl-5 pt-2">Ads</h3>
