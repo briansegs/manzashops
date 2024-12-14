@@ -8,7 +8,7 @@ const AdRow04 = ({ ad1Href, ad1Src, ad1Alt, ad2Href, ad2Src, ad2Alt }) => (
           <img
             src={ad1Src}
             alt={ad1Alt}
-            className="object-cover size-full rounded-[8px]"
+            className="object-fit size-full rounded-[8px]"
           />
         </a>
       </div>
@@ -18,7 +18,7 @@ const AdRow04 = ({ ad1Href, ad1Src, ad1Alt, ad2Href, ad2Src, ad2Alt }) => (
           <img
             src={ad2Src}
             alt={ad2Alt}
-            className="object-cover size-full rounded-[8px]"
+            className="object-fit size-full rounded-[8px]"
           />
         </a>
       </div>

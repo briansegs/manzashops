@@ -12,7 +12,7 @@ const BadgeItems = ({ data }) => (
         <div className="rounded-[10px] bg-[#800080] text-white border-[1px] border-black shadow-[2px_2px_5px_white] hover:shadow-[2px_2px_5px_#60b3d1]">
           <img
             src={item.src || "/manzashops/assets/aldo.jpeg"}
-            className="size-[60px] rounded-[10px] object-cover"
+            className="size-[60px] rounded-[10px] object-fit"
           />
         </div>
         {item.name || "aldo"}

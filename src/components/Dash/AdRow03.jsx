@@ -8,7 +8,7 @@ const AdRow03 = ({ adHref, adSrc, adAlt }) => (
           <img
             src={adSrc}
             alt={adAlt}
-            className="object-cover size-full rounded-[8px]"
+            className="object-fit size-full rounded-[8px]"
           />
         </a>
       </div>

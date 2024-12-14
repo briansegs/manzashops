@@ -5,7 +5,7 @@ const ImageSlider = () => {
         <a href="">
           <img
             src="/manzashops/assets/manza.png"
-            className="w-[171vh] h-[59.5vh] object-cover rounded-[10px] border-secondary border-b-4 shadow-[10px_10px_10px_black]"
+            className="w-[171vh] h-[59.5vh] object-fit rounded-[10px] border-secondary border-b-4 shadow-[10px_10px_10px_black]"
           />
         </a>
 

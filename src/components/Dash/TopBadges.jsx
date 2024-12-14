@@ -61,7 +61,7 @@ const TopBadges = ({ data }) => {
                     <img
                       src="/manzashops/assets/badge/qv.png"
                       alt="quick view"
-                      className="size-full rounded-lg object-cover"
+                      className="size-full rounded-lg object-fit"
                     />
                   </button>
 
@@ -73,7 +73,7 @@ const TopBadges = ({ data }) => {
                     <img
                       src={btnImg}
                       alt="badge"
-                      className="size-full rounded-lg object-fill "
+                      className="size-full rounded-lg object-fit"
                     />
                   </div>
                 </div>
@@ -82,7 +82,7 @@ const TopBadges = ({ data }) => {
                   <img
                     src={btnImg}
                     alt="badge"
-                    className="size-full rounded-lg object-fill"
+                    className="size-full rounded-lg object-fit"
                   />
                 </a>
               </div>

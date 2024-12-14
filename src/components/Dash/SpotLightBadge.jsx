@@ -4,7 +4,7 @@ const SpotLightBadge = ({ href, src, title }) => (
     href={href}
   >
     <div className="rounded-[10px] bg-[#800080] text-white shadow-[2px_2px_5px_white] border-[1px] border-black hover:shadow-[2px_2px_5px_#60b3d1]">
-      <img src={src} className="size-[80px] rounded-[10px] object-cover" />
+      <img src={src} className="size-[80px] rounded-[10px] object-fit" />
     </div>
 
     <p>{title}</p>
