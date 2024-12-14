@@ -46,6 +46,7 @@ import {
   bestBuy,
 } from "../../constants/Dash";
 import TopBadges from "./TopBadges";
+import { adRow03data001 } from "../../constants/Dash/content";
 
 const Content = () => {
   return (
@@ -97,11 +98,7 @@ const Content = () => {
       <AdBlock
         ads={
           <>
-            <AdRow03
-              adHref={mockHref}
-              adSrc={"/manzashops/assets/ad/clothes.jpeg"}
-              adAlt={"clothes"}
-            />
+            <AdRow03 data={adRow03data001} />
 
             <AdRow04
               ad1Href={mockHref}
