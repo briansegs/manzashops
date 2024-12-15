@@ -2,7 +2,7 @@ changes made part 1
 
 changes made part 2
 
-
+changes made 3
 
 
 # ManzaShop
