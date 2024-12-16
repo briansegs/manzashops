@@ -1,4 +1,6 @@
-const AdRow02 = ({ ad1Href, ad1Src, ad1Alt, ad2Href, ad2Src, ad2Alt }) => (
+import { Link } from "react-router";
+
+const AdRow02 = ({ ad1Href, ad1Src, ad1Alt, ad2Path, ad2Src, ad2Alt }) => (
   <div className="bg-black rounded-[10px] xl:w-fit md:w-[95%] w-[99%]">
     <h3 className="text-white text-[24px] pl-5 pt-2">Ads</h3>
 
@@ -14,13 +16,21 @@ const AdRow02 = ({ ad1Href, ad1Src, ad1Alt, ad2Href, ad2Src, ad2Alt }) => (
       </div>
 
       <div className="bg-slate-200 w-[1000px] h-full rounded-[10px] shrink-0 border-[2px] border-white hover:border-secondary">
-        <a href={ad2Href}>
+        <Link
+          to={ad2Path}
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
           <img
             src={ad2Src}
             alt={ad2Alt}
             className="object-fit size-full rounded-[8px]"
           />
-        </a>
+        </Link>
       </div>
     </div>
   </div>

@@ -60,9 +60,9 @@ const Content = () => {
               ad1Href={mockHref}
               ad1Src={"/manzashops/assets/ad/target2.jpeg"}
               ad1Alt={"target2"}
-              ad2Href={mockHref}
+              ad2Path={"listings"}
               ad2Src={"/manzashops/assets/ad/YouTube Thumbnail-1 6.png"}
-              ad2Alt={"YouTube"}
+              ad2Alt={"Listings"}
             />
           </>
         }

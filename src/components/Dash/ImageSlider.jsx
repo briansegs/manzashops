@@ -4,12 +4,12 @@ const ImageSlider = () => {
   return (
     <>
       <div className="relative flex-1">
-        <div className="flex w-full overflow-x-auto">
+        <div className="flex w-full lg:h-[60vh] h-full overflow-x-auto">
           {sliderData.map(({ id, href, src, styles }) => (
             <a key={id} href={href} className="w-full flex-shrink-0">
               <img
                 src={src}
-                className={`w-[171vh] h-[472.8px] object-fit rounded-[10px] shadow-[10px_10px_10px_black] ${styles}`}
+                className={`w-[171vh] h-full object-fit rounded-[10px] shadow-[10px_10px_10px_black] ${styles}`}
               />
             </a>
           ))}
