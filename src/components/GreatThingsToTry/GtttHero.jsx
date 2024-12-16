@@ -7,7 +7,7 @@ const GtttHero = () => (
         <a key={id} href={href} className="w-screen flex-shrink-0">
           <img
             src={src}
-            className={`w-screen h-full object-fill rounded-[10px] shadow-[10px_10px_10px_black] ${styles}`}
+            className={`w-screen h-full object-fit rounded-[10px] shadow-[10px_10px_10px_black] ${styles}`}
           />
         </a>
       ))}

@@ -39,6 +39,33 @@ export const adRow1data001 = [
   },
 ];
 
+export const adRow03data001 = [
+  {
+    id: "ad0010",
+    href: mockHref,
+    src: "/manzashops/assets/ad/clothes.jpeg",
+    alt: "clothes",
+  },
+  {
+    id: "ad0011",
+    href: mockHref,
+    src: "/manzashops/assets/ad/clothes.jpeg",
+    alt: "clothes",
+  },
+  {
+    id: "ad0012",
+    href: mockHref,
+    src: "/manzashops/assets/ad/clothes.jpeg",
+    alt: "clothes",
+  },
+  {
+    id: "ad0013",
+    href: mockHref,
+    src: "/manzashops/assets/ad/clothes.jpeg",
+    alt: "clothes",
+  },
+];
+
 export const adRow05data001 = [
   {
     id: "ad0004",

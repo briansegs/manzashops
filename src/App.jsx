@@ -10,6 +10,7 @@ import Menus from "./pages/Menus";
 import Movies from "./pages/Movies";
 import Newsletter from "./pages/Newsletter";
 import GreatThingsToTry from "./pages/GreatThingsToTry";
+import Listings from "./pages/Listings";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="movies" element={<Movies />} />
         <Route path="newsletter" element={<Newsletter />} />
         <Route path="great-things-to-try" element={<GreatThingsToTry />} />
+        <Route path="dash/listings" element={<Listings />} />
       </Route>
     </Routes>
   );
