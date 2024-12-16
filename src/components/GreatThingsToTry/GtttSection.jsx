@@ -17,7 +17,7 @@ const GtttSection = ({ data }) => {
                 className="border-[2px] border-white hover:border-secondary w-96 h-56 shrink-0"
               >
                 <a href={href}>
-                  <img src={src} alt={alt} className="object-fill size-full" />
+                  <img src={src} alt={alt} className="object-fit size-full" />
                 </a>
               </div>
             ))}
@@ -30,7 +30,7 @@ const GtttSection = ({ data }) => {
                 className="border-[2px]  border-white hover:border-secondary w-96 h-56 shrink-0"
               >
                 <a href={href}>
-                  <img src={src} alt={alt} className="object-fill size-full" />
+                  <img src={src} alt={alt} className="object-fit size-full" />
                 </a>
               </div>
             ))}

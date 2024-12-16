@@ -56,7 +56,7 @@ const BadgeSection = ({ data }) => {
                 <img
                   src="/manzashops/assets/badge/qv.png"
                   alt="quick view"
-                  className="size-full rounded-lg object-cover"
+                  className="size-full rounded-lg object-fit"
                 />
               </button>
 
@@ -68,7 +68,7 @@ const BadgeSection = ({ data }) => {
                 <img
                   src={btnImg}
                   alt="badge"
-                  className="size-full rounded-lg object-cover "
+                  className="size-full rounded-lg object-fit "
                 />
               </div>
             </div>

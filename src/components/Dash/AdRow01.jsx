@@ -12,7 +12,7 @@ const AdRow01 = ({ data }) => (
             <img
               src={src}
               alt={src}
-              className="objewct-cover size-full rounded-[8px]"
+              className="object-fit size-full rounded-[8px]"
             />
           </a>
         </div>
