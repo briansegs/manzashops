@@ -99,7 +99,7 @@ const Content = () => {
           <>
             <AdRow03
               adHref={mockHref}
-              adSrc={"/manzashops/assets/ad/clothes.jpeg"}
+              adSrc={"/manzashops/assets/aber11.jpg"}
               adAlt={"clothes"}
             />
 

@@ -12,32 +12,56 @@ import { adsSection02 } from "./sections/adsSection02";
 export const activeGear = {
   title: "Active Gear",
   id: "active-gear",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
+  btnImg: "/manzashops/assets/suits.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "mix",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },
     {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
+    },
+    {
       id: "sec0002",
-      sectionName: "deals",
+      sectionName: "mens",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
       categories: section02Categories,
     },
     {
       id: "sec0003",
-      sectionName: "new-arrivals",
+      sectionName: "womans",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
       categories: section03Categories,
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "kids",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
+    },
+    {
+      id: "sec0007",
+      sectionName: "yoga",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
+    },
+    {
+      id: "sec0007",
+      sectionName: "gym",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
+    },
+    {
+      id: "sec0007",
+      sectionName: "running",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
     },
     {
       id: "sec0005",
@@ -57,12 +81,8 @@ export const activeGear = {
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adsSection01,
-    },
+
+
     {
       id: "adSec0002",
       ad: true,

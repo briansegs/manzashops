@@ -7,27 +7,27 @@ import { group05 } from "./categoryProducts/group05";
 export const section02Categories = [
   {
     id: "cat0006",
-    categoryTitle: "Seasonal Favorites",
+    categoryTitle: "Jackets",
     products: group01,
   },
   {
     id: "cat0007",
-    categoryTitle: "Outdoor Essentials",
+    categoryTitle: "Pants",
     products: group02,
   },
   {
     id: "cat0008",
-    categoryTitle: "Casual Wear",
+    categoryTitle: "Tops",
     products: group03,
   },
-  {
-    id: "cat0009",
-    categoryTitle: "Workplace Staples",
-    products: group04,
-  },
-  {
-    id: "cat0010",
-    categoryTitle: "Accessories & More",
-    products: group05,
-  },
+  // {
+  //   id: "cat0009",
+  //   categoryTitle: "Workplace Staples",
+  //   products: group04,
+  // },
+  // {
+  //   id: "cat0010",
+  //   categoryTitle: "Accessories & More",
+  //   products: group05,
+  // },
 ];

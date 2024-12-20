@@ -2,7 +2,7 @@ export const sliderData = [
   {
     id: "img0001",
     href: "",
-    src: "/manzashops/assets/manzaad4.png",
+    src: "/manzashops/assets/ccard2.png",
     styles: "border-secondary border-b-4",
   },
   {

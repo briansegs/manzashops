@@ -7,27 +7,27 @@ import { group05 } from "./categoryProducts/group05";
 export const section04Categories = [
   {
     id: "cat0021",
-    categoryTitle: "Outdoor Adventures",
+    categoryTitle: " for Boys ",
     products: group01,
   },
   {
     id: "cat0022",
-    categoryTitle: "Home Essentials",
+    categoryTitle: " for Girls",
     products: group02,
   },
-  {
-    id: "cat0023",
-    categoryTitle: "Gaming Gear",
-    products: group03,
-  },
-  {
-    id: "cat0024",
-    categoryTitle: "Health & Wellness",
-    products: group04,
-  },
-  {
-    id: "cat0025",
-    categoryTitle: "Eco-Friendly Finds",
-    products: group05,
-  },
+  // {
+  //   id: "cat0023",
+  //   categoryTitle: "",
+  //   products: group03,
+  // },
+  // {
+  //   id: "cat0024",
+  //   categoryTitle: "Health & Wellness",
+  //   products: group04,
+  // },
+  // {
+  //   id: "cat0025",
+  //   categoryTitle: "Eco-Friendly Finds",
+  //   products: group05,
+  // },
 ];

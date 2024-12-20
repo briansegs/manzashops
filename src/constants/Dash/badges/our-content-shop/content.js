@@ -2,12 +2,12 @@ export const content = [
   {
     name: "nike",
     href: null,
-    src: "/manzashops/assets/nike.jpeg",
+    src: "/manzashops/assets/icons/pandora.webp",
   },
   {
     name: "adidas",
     href: null,
-    src: "/manzashops/assets/adidas.jpeg",
+    src: "/manzashops/assets/icons/pandora.webp",
   },
   {
     name: "puma",

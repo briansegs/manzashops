@@ -10,12 +10,12 @@ export const adsSection01 = [
       <QvAdRow01
         ad1={{
           href: "/",
-          img: "/manzashops/assets/ad/clothes2.png",
+          img: "/manzashops/assets/aber11.jpg",
           alt: "ad 1",
         }}
         ad2={{
           href: "/",
-          img: "/manzashops/assets/ad/ads2.jpeg",
+          img: "/manzashops/assets/eagles.jpg",
           alt: "ad 2",
         }}
       />

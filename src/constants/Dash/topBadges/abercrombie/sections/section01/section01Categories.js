@@ -7,27 +7,27 @@ import { group05 } from "./categoryProducts/group05";
 export const section01Categories = [
   {
     id: "cat0001",
-    categoryTitle: "Trending",
+    categoryTitle: "long Sleeves",
     products: group01,
   },
   {
     id: "cat0002",
-    categoryTitle: "Best Sellers",
+    categoryTitle: "Jackets",
     products: group02,
   },
   {
     id: "cat0003",
-    categoryTitle: "New Arrivals",
+    categoryTitle: "pants",
     products: group03,
   },
-  {
-    id: "cat0004",
-    categoryTitle: "Staff Picks",
-    products: group04,
-  },
-  {
-    id: "cat0005",
-    categoryTitle: "Limited Time Offers",
-    products: group05,
-  },
+  // {
+  //   id: "cat0004",
+  //   categoryTitle: "",
+  //   products: group04,
+  // },
+  // {
+  //   id: "cat0005",
+  //   categoryTitle: "Limited Time Offers",
+  //   products: group05,
+  // },
 ];

@@ -1,62 +1,62 @@
 export const group02 = [
   {
     id: "prod0037",
-    title: "Cargo Pants",
-    href: "/",
-    img: "/manzashops/assets/clothing/cargo1.jpeg",
-    name: "Utility Style",
-    price: "50.00",
-    description:
-      "Practical and stylish, these cargo pants feature multiple pockets and a relaxed fit for everyday use.",
+    title: "",
+    href: "https://www.abercrombie.com/shop/us/p/curve-love-a-and-f-sloane-low-rise-tailored-pant-57184922?categoryId=6570724&faceout=model&seq=01/",
+    img: "/manzashops/assets/abercrombie/aberwbot1.avif",
+    name: "Curved Love Pants",
+    price: "90.00",
+    // description:
+    //   "Practical and stylish, these cargo pants feature multiple pockets and a relaxed fit for everyday use.",
   },
   {
     id: "prod0038",
-    title: "Wool Fedora",
-    href: "/",
-    img: "/manzashops/assets/accessories/fedora1.jpeg",
-    name: "Classic Headwear",
-    price: "40.00",
-    description:
-      "Elevate your outfit with this timeless wool fedora, crafted for comfort and refined style.",
+    title: "",
+    href: "https://www.abercrombie.com/shop/us/p/lounge-rib-mid-rise-wide-leg-sweatpant-58772821?categoryId=6570724&faceout=prod&seq=02/",
+    img: "/manzashops/assets/abercrombie/aberwbot2.avif",
+    name: "Lounge rib pants",
+    price: "60.00",
+    // description:
+    //   "Elevate your outfit with this timeless wool fedora, crafted for comfort and refined style.",
   },
   {
     id: "prod0039",
-    title: "Leather Wallet",
-    href: "/",
-    img: "/manzashops/assets/accessories/wallet1.jpeg",
-    name: "Sleek Organizer",
-    price: "35.00",
-    description:
-      "A compact leather wallet with multiple compartments to keep your essentials secure and organized.",
+    title: "",
+    href: "https://www.abercrombie.com/shop/us/p/a-and-f-quinn-tailored-pant-57521100?categoryId=6570724&faceout=model&seq=03/",
+    img: "/manzashops/assets/abercrombie/aberwbot3.avif",
+    name: "Quinn pants",
+    price: "72.00",
+    // description:
+    //   "A compact leather wallet with multiple compartments to keep your essentials secure and organized.",
   },
   {
     id: "prod0040",
-    title: "Knitted Sweater",
-    href: "/",
-    img: "/manzashops/assets/clothing/sweater1.jpeg",
-    name: "Winter Comfort",
-    price: "55.00",
-    description:
-      "Cozy and warm, this knitted sweater is perfect for cold weather while adding a touch of charm to your look.",
+    title: "",
+    href: "https://www.abercrombie.com/shop/us/p/high-rise-90s-relaxed-jean-52110844?categoryId=6570724&faceout=model&seq=26/",
+    img: "/manzashops/assets/abercrombie/aberwbot4.avif",
+    name: "High Rise Pants",
+    price: "63.00",
+    // description:
+    //   "Cozy and warm, this knitted sweater is perfect for cold weather while adding a touch of charm to your look.",
   },
   {
     id: "prod0041",
-    title: "Sports Duffel Bag",
-    href: "/",
-    img: "/manzashops/assets/bags/duffel1.jpeg",
-    name: "Travel Ready",
+    title: "",
+    href: "https://www.abercrombie.com/shop/us/p/menswear-pull-on-pant-58518347?categoryId=6570724&faceout=model&seq=06/",
+    img: "/manzashops/assets/abercrombie/aberwbot5.avif",
+    name: "Pull on Pants",
     price: "65.00",
-    description:
-      "Durable and spacious, this duffel bag is ideal for gym sessions or weekend getaways.",
+    // description:
+    //   "Durable and spacious, this duffel bag is ideal for gym sessions or weekend getaways.",
   },
   {
     id: "prod0042",
-    title: "Digital Smartwatch",
-    href: "/",
-    img: "/manzashops/assets/accessories/smartwatch1.jpeg",
-    name: "Modern Tech",
-    price: "150.00",
-    description:
-      "Stay connected on the go with this sleek smartwatch, featuring advanced features and customizable straps.",
+    title: "",
+    href: "https://www.abercrombie.com/shop/us/p/ypb-sculptlux-flare-legging-56284822?categoryId=6570724&faceout=model&seq=02/",
+    img: "/manzashops/assets/abercrombie/aberwbot6.avif",
+    name: "YPB Flare Legging",
+    price: "49.00",
+    // description:
+    //   "Stay connected on the go with this sleek smartwatch, featuring advanced features and customizable straps.",
   },
 ];
