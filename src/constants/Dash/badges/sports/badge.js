@@ -10,57 +10,57 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const sports = {
-  title: "Sports",
+  title: "Jewelery Shops",
   id: "sports",
-  btnImg: "/manzashops/assets/badge/gift2.png",
+  btnImg: "/manzashops/assets/jewel.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
+      sectionName: "Neckalces",
+      sectionImg: "/manzashops/assetsbadge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },
     {
       id: "sec0002",
-      sectionName: "deals",
+      sectionName: "WeddingRing",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
       categories: section02Categories,
     },
     {
       id: "sec0003",
-      sectionName: "new-arrivals",
+      sectionName: "Engagement",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
       categories: section03Categories,
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "Bracelets",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
     },
     {
       id: "sec0005",
-      sectionName: "seasonal",
+      sectionName: "earrings",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
-    {
-      id: "sec0006",
-      sectionName: "clearance",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
-      categories: section06Categories,
-    },
-    {
-      id: "sec0007",
-      sectionName: "recommended",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
-      categories: section07Categories,
-    },
+    // {
+    // //   id: "sec0006",
+    // //   sectionName: "",
+    // //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
+    // //   categories: section06Categories,
+    // // },
+    // // {
+    // //   id: "sec0007",
+    // //   sectionName: "recommended",
+    // //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+    // //   categories: section07Categories,
+    // // },
     {
       id: "adSec0001",
       ad: true,
-      sectionName: "Ads 1",
+      sectionName: "Deals",
       ads: adsSection01,
     },
     {

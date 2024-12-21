@@ -9,7 +9,7 @@ export const adsSection01 = [
     adRow: (
       <QvAdRow01
         ad1={{
-          href: "/",
+          href: "/https://www.abercrombie.com/shop/us/mens-tops--1",
           img: "/manzashops/assets/ad/clothes2.png",
           alt: "ad 1",
         }}

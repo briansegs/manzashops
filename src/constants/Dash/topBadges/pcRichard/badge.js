@@ -9,7 +9,7 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const pcRichard = {
-  title: "P.C. Richard & Son",
+  title: "P.C. Richard & Son ",
   id: "pc-richard",
   btnImg: "/manzashops/assets/badge/Pc richard.png",
   href: "/",

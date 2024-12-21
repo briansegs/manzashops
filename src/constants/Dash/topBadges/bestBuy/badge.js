@@ -27,6 +27,12 @@ export const bestBuy = {
       categories: section02Categories,
     },
     {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
+    },
+    {
       id: "sec0003",
       sectionName: "new-arrivals",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
@@ -39,10 +45,22 @@ export const bestBuy = {
       categories: section04Categories,
     },
     {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Collections",
+      ads: adsSection01,
+    },
+    {
       id: "sec0005",
       sectionName: "seasonal",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
+    },
+    {
+      id: "adSec0002",
+      ad: true,
+      sectionName: "Coming Soon!",
+      ads: adsSection02,
     },
     {
       id: "sec0006",
@@ -50,23 +68,14 @@ export const bestBuy = {
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
       categories: section06Categories,
     },
+
     {
       id: "sec0007",
       sectionName: "recommended",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adsSection01,
-    },
-    {
-      id: "adSec0002",
-      ad: true,
-      sectionName: "Ads 2",
-      ads: adsSection02,
-    },
+ 
+
   ],
 };

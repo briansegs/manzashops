@@ -7,7 +7,7 @@ export const adSectionData01 = {
     {
       id: "adrow10001",
       href: "",
-      src: "/manzashops/assets/ad/webflow.jpeg",
+      src: "/manzashops/assets/ccard2.png",
       alt: "ad1",
     },
     {

@@ -10,16 +10,22 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const exclusivePicks = {
-  title: "Exclusive Picks",
+  title: "Movies",
   id: "exclusive-picks",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
+  btnImg: "/manzashops/assets/movie01.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "mix",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
+    },
+    {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
     },
     {
       id: "sec0002",
@@ -35,34 +41,42 @@ export const exclusivePicks = {
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "action",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
     },
     {
       id: "sec0005",
-      sectionName: "seasonal",
+      sectionName: "adventure",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
     {
       id: "sec0006",
-      sectionName: "clearance",
+      sectionName: "horror",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
       categories: section06Categories,
     },
     {
       id: "sec0007",
-      sectionName: "recommended",
+      sectionName: "commedy",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
     {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adsSection01,
+      id: "sec0007",
+      sectionName: "collection",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
     },
+
+    {
+      id: "sec0007",
+      sectionName: "commedy",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
+    },
+
     {
       id: "adSec0002",
       ad: true,

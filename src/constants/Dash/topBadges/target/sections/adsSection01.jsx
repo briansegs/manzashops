@@ -10,12 +10,12 @@ export const adsSection01 = [
       <QvAdRow01
         ad1={{
           href: "/",
-          img: "/manzashops/assets/ad/clothes2.png",
+          img: "/manzashops/assets/target/target01.avif",
           alt: "ad 1",
         }}
         ad2={{
           href: "/",
-          img: "/manzashops/assets/ad/ads2.jpeg",
+          img: "/manzashops/assets/target/target02.avif",
           alt: "ad 2",
         }}
       />
@@ -27,12 +27,12 @@ export const adsSection01 = [
       <QvAdRow02
         ad1={{
           href: "/",
-          img: "/manzashops/assets/ad/ads3.jpeg",
+          img: "/manzashops/assets/target/target03.avif",
           alt: "ad 3",
         }}
         ad2={{
           href: "/",
-          img: "/manzashops/assets/ad/ads4.jpeg",
+          img: "/manzashops/assets/target/target04.avif",
           alt: "ad 4",
         }}
       />
@@ -45,19 +45,19 @@ export const adsSection01 = [
         ad1={{
           id: "qvadrow0001",
           href: "/",
-          img: "/manzashops/assets/ad/styles.jpeg",
+          img: "/manzashops/assets/target/target05.avif",
           alt: "ad 5",
         }}
         ad2={{
           id: "qvadrow0002",
           href: "/",
-          img: "/manzashops/assets/ad/collection1.jpeg",
+          img: "/manzashops/assets/target/target06.avif",
           alt: "ad 6",
         }}
         ad3={{
           id: "qvadrow0004",
           href: "/",
-          img: "/manzashops/assets/ad/perfume2.jpeg",
+          img: "/manzashops/assets/target/target07.avif",
           alt: "ad 7",
         }}
       />
@@ -70,7 +70,7 @@ export const adsSection01 = [
         ad={{
           id: "qvadrow0001",
           href: "/",
-          img: "/manzashops/assets/ad/clothes.jpeg",
+          img: "/manzashops/assets/target/target08.avif",
           alt: "ad 8",
         }}
       />
@@ -83,13 +83,13 @@ export const adsSection01 = [
         ad1={{
           id: "qvadrow0002",
           href: "/",
-          img: "/manzashops/assets/ad/xboxad.jpeg",
+          img: "/manzashops/assets/target/target09.avif",
           alt: "ad 9",
         }}
         ad2={{
           id: "qvadrow0003",
           href: "/",
-          img: "/manzashops/assets/ad/playstationad1.jpeg",
+          img: "/manzashops/assets/target/target10.avif",
           alt: "ad 10",
         }}
       />
@@ -101,12 +101,12 @@ export const adsSection01 = [
       <QvAdRow01
         ad1={{
           href: "/",
-          img: "/manzashops/assets/ad/game1.jpeg",
+          img: "/manzashops/assets/target/target11.avif",
           alt: "ad 11",
         }}
         ad2={{
           href: "/",
-          img: "/manzashops/assets/ad/tech.jpeg",
+          img: "/manzashops/assets/target/target12.avif",
           alt: "ad 12",
         }}
       />
