@@ -11,7 +11,7 @@ const ProductCard = ({ title, href, img, name, price, description }) => {
       <img
         src={img}
         alt="product-image"
-        className="w-full h-48 bg-slate-600 object-cover"
+        className="w-full h-48 bg-slate-600 object-fit"
       />
 
       <div className="w-full flex-col text-white p-4 gap-3">
