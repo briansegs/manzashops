@@ -5,9 +5,19 @@ export const content = [
     src: "/manzashops/assets/nike.jpeg",
   },
   {
+    name: "all birds",
+    href: null,
+    src: "/manzashops/assets/shoes/allbirds.webp",
+  },
+  {
     name: "adidas",
     href: null,
     src: "/manzashops/assets/adidas.jpeg",
+  },
+  {
+    name: "ugg",
+    href: null,
+    src: "/manzashops/assets/shoes/ugg.webp",
   },
   {
     name: "puma",
@@ -19,21 +29,13 @@ export const content = [
     href: null,
     src: "/manzashops/assets/aldo.jpeg",
   },
-  {
-    name: "all birds",
-    href: null,
-    src: "/manzashops/assets/shoes/allbirds.webp",
-  },
+
   {
     name: "altra",
     href: null,
     src: "/manzashops/assets/shoes/altra.webp",
   },
-  {
-    name: "ugg",
-    href: null,
-    src: "/manzashops/assets/shoes/ugg.webp",
-  },
+
   {
     name: "converse",
     href: null,

@@ -9,9 +9,9 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const target = {
-  title: "target",
+  title: "Visor",
   id: "target",
-  btnImg: "/manzashops/assets/badge/target logo.png",
+  btnImg: "/manzashops/assets/icons/visor.png",
   href: "/",
   sections: [
     {

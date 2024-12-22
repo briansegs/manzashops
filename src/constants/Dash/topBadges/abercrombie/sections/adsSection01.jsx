@@ -10,12 +10,12 @@ export const adsSection01 = [
       <QvAdRow01
         ad1={{
           href: "/https://www.abercrombie.com/shop/us/mens-tops--1",
-          img: "/manzashops/assets/ad/clothes2.png",
+          img: "/manzashops/assets/abercrombie/aberpostad1.png",
           alt: "ad 1",
         }}
         ad2={{
           href: "/",
-          img: "/manzashops/assets/ad/ads2.jpeg",
+          img: "/manzashops/assets/abercrombie/aberpost2.png",
           alt: "ad 2",
         }}
       />
@@ -27,12 +27,12 @@ export const adsSection01 = [
       <QvAdRow02
         ad1={{
           href: "/",
-          img: "/manzashops/assets/ad/ads3.jpeg",
+          img: "/manzashops/assets/abercrombie/aberpost3.png",
           alt: "ad 3",
         }}
         ad2={{
           href: "/",
-          img: "/manzashops/assets/ad/ads4.jpeg",
+          img: "/manzashops/assets/abercrombie/aberpost4.png",
           alt: "ad 4",
         }}
       />
@@ -45,7 +45,7 @@ export const adsSection01 = [
         ad1={{
           id: "qvadrow0001",
           href: "/",
-          img: "/manzashops/assets/ad/styles.jpeg",
+          img: "/manzashops/assets/abercrombie/aberpost5.png",
           alt: "ad 5",
         }}
         ad2={{
@@ -70,7 +70,7 @@ export const adsSection01 = [
         ad={{
           id: "qvadrow0001",
           href: "/",
-          img: "/manzashops/assets/ad/clothes.jpeg",
+          img: "/manzashops/assets/abercrombie/aberpost5.png",
           alt: "ad 8",
         }}
       />

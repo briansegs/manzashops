@@ -21,6 +21,12 @@ const SpotLight = () => {
           src={"/manzashops/assets/webflow.jpeg"}
           alt={"webflow"}
         />
+        <SpotLightAdCard
+          title={"Intorducing   M.B.A.B.A"}
+          href={"https://webflow.com/"}
+          src={"/manzashops/assets/baba.png"}
+          alt={"webflow"}
+        />
       </div>
     </section>
   );

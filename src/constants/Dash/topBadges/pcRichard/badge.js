@@ -9,14 +9,14 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const pcRichard = {
-  title: "P.C. Richard & Son ",
+  title: "Pc Richard ",
   id: "pc-richard",
   btnImg: "/manzashops/assets/badge/Pc richard.png",
   href: "/",
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "maix",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },

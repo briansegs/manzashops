@@ -5,17 +5,17 @@ export const adRow1data001 = [
   {
     id: "ad0010",
     href: "https://webflow.com/",
-    src: "/manzashops/assets/ad/webflow.jpeg",
+    src: "/manzashops/assets/ad/urad1.png",
   },
   {
     id: "ad0011",
     href: mockHref,
-    src: "/manzashops/assets/ad/movie24.jpeg",
+    src: "/manzashops/assets/ad/urad2.png",
   },
   {
     id: "ad0012",
     href: mockHref,
-    src: "/manzashops/assets/ad/domain.jpeg",
+    src: "/manzashops/assets/ad/uradb1.png",
   },
   {
     id: "ad0013",
