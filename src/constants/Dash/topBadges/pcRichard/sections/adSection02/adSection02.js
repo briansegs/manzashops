@@ -1,4 +1,4 @@
-export const adSection01 = [
+export const adSection02 = [
   {
     id: "ad0001",
     href: "/",
