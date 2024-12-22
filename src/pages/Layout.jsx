@@ -5,14 +5,12 @@ import { Outlet } from "react-router";
 
 const Layout = () => {
   return (
-    <html lang="en">
-      <body className="bg-white w-full">
-        <Header />
-        <Menu />
-        <Outlet />
-        <Footer />
-      </body>
-    </html>
+    <div className="bg-white w-full">
+      <Header />
+      <Menu />
+      <Outlet />
+      <Footer />
+    </div>
   );
 };
 
