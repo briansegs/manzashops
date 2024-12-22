@@ -40,7 +40,7 @@ import { savingsSpotlight } from "./badges/savings-spotlight/badge";
 
 import { pcRichard } from "./topBadges/pcRichard/badge";
 import { abercrombie } from "./topBadges/abercrombie/badge";
-import { target } from "./topBadges/target/badge";
+import { target } from "./topBadges/visor/badge";
 import { bestBuy } from "./topBadges/bestBuy/badge";
 
 export {
