@@ -1,6 +1,7 @@
 import { RxCross1 } from "react-icons/rx";
 import ProductCard from "./ProductCard";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import AdCard from "./AdCard";
 
 const QuickViewContainer = ({ handleCloseContainer, sections }) => {
   const firstSection = sections[0].sectionName;
@@ -59,10 +60,10 @@ const QuickViewContainer = ({ handleCloseContainer, sections }) => {
 
           <div className="w-full items-center flex flex-col gap-10 pt-4 overflow-y-auto ">
             {activeSectionData.ad ? (
-              <div className="w-full flex flex-col pb-6">
-                {activeSectionData.ads.map(({ key, adRow }) =>
-                  React.cloneElement(adRow, { key })
-                )}
+              <div className="flex flex-wrap gap-6 pb-6 xl:w-[862px] w-[431px]">
+                {activeSectionData.ads.map(({ id, href, img, alt }) => (
+                  <AdCard key={id} href={href} img={img} alt={alt} />
+                ))}
               </div>
             ) : (
               activeSectionData.categories.map(
