@@ -1,6 +1,6 @@
 export const content = [
   {
-    name: "giftcard",
+    name: "giftcard01",
     href: null,
     src: "/manzashops/assets/nike.jpeg",
   },
