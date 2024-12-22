@@ -98,11 +98,7 @@ const Content = () => {
       <AdBlock
         ads={
           <>
-            <AdRow03
-              adHref={mockHref}
-              adSrc={"/manzashops/assets/aber11.jpg"}
-              adAlt={"clothes"}
-            />
+            <AdRow03 data={adRow03data001} />
 
             <AdRow04
               ad1Href={mockHref}
@@ -116,18 +112,7 @@ const Content = () => {
         }
       />
 
-<TopBadges
-        data={[
-          pcRichard,
-          target,
-          abercrombie,
-          bestBuy,
-          pcRichard,
-          target,
-          abercrombie,
-          bestBuy,
-        ]}
-      />
+
 
       <BadgeSection
         data={[freshFinds, gearUp, premiumPicks, dealHunters, smartPicks]}
