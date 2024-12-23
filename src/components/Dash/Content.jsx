@@ -68,18 +68,7 @@ const Content = () => {
         }
       />
 
-      <TopBadges
-        data={[
-          pcRichard,
-          target,
-          abercrombie,
-          bestBuy,
-          pcRichard,
-          target,
-          abercrombie,
-          bestBuy,
-        ]}
-      />
+      <TopBadges data={[pcRichard, target, abercrombie, bestBuy]} />
 
       <BadgeSection
         data={[ourContentShop, sports, paidTopSpot, bangUrBuck, getYourBestBuy]}
@@ -111,8 +100,6 @@ const Content = () => {
           </>
         }
       />
-
-
 
       <BadgeSection
         data={[freshFinds, gearUp, premiumPicks, dealHunters, smartPicks]}
