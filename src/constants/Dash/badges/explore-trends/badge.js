@@ -3,8 +3,8 @@ import { section02Categories } from "./sections/section02/section02Categories";
 import { section03Categories } from "./sections/section03/section03Categories";
 import { section04Categories } from "./sections/section04/section04Categories";
 import { section05Categories } from "./sections/section05/section05Categories";
-import { section06Categories } from "./sections/section06/section06Categories";
-import { section07Categories } from "./sections/section07/section07Categories";
+// import { section06Categories } from "./sections/section06/section06Categories";
+// import { section07Categories } from "./sections/section07/section07Categories";
 import { content } from "./content";
 import { adSection01 } from "./sections/adSection01/adSection01";
 import { adSection02 } from "./sections/adSection02/adSection02";
@@ -17,9 +17,15 @@ export const exploreTrends = {
   sections: [
     {
       id: "sec0001",
-      sectionName: "mix",
+      sectionName: "Deals",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
+    },
+    {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
     },
     {
       id: "sec0002",
@@ -40,6 +46,12 @@ export const exploreTrends = {
       categories: section04Categories,
     },
     {
+      id: "sec0001",
+      sectionName: "Vegan Supplements",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
+      categories: section01Categories,
+    },
+    {
       id: "sec0005",
       sectionName: "recovery",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
@@ -57,17 +69,11 @@ export const exploreTrends = {
     //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
     //   categories: section07Categories,
     // },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adSection01,
-    },
-    {
-      id: "adSec0002",
-      ad: true,
-      sectionName: "Ads 2",
-      ads: adSection02,
-    },
+    // {
+    //   id: "adSec0002",
+    //   ad: true,
+    //   sectionName: "Ads 2",
+    //   ads: adsSection02,
+    // },
   ],
 };

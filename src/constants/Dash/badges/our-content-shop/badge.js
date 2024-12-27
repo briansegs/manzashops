@@ -10,9 +10,9 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 import { adSection02 } from "./sections/adSection02/adSection02";
 
 export const ourContentShop = {
-  title: "Top Deals Today",
+  title: "Clothing Brands",
   id: "our-content-shop",
-  btnImg: "/manzashops/assets/de.png",
+  btnImg: "/manzashops/assets/badge/sat1.png",
   content: content,
   sections: [
     {

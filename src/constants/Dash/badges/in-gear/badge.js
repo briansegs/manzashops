@@ -10,20 +10,26 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 import { adSection02 } from "./sections/adSection02/adSection02";
 
 export const inGear = {
-  title: "In Gear",
+  title: "Office Suppliers",
   id: "in-gear",
   btnImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "Deals",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },
     {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
+    },
+    {
       id: "sec0002",
-      sectionName: "deals",
+      sectionName: "Pens",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
       categories: section02Categories,
     },
@@ -35,13 +41,19 @@ export const inGear = {
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "posters",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
     },
     {
       id: "sec0005",
-      sectionName: "seasonal",
+      sectionName: "Printers",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section05Categories,
+    },
+    {
+      id: "sec0005",
+      sectionName: "Tools",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
@@ -56,12 +68,6 @@ export const inGear = {
       sectionName: "recommended",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
-    },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adSection01,
     },
     {
       id: "adSec0002",

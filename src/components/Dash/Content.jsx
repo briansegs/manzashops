@@ -47,6 +47,8 @@ import {
 } from "../../constants/Dash";
 import TopBadges from "./TopBadges";
 import { adRow03data001 } from "../../constants/Dash/content";
+import { visor } from "../../constants/Dash/topBadges/Visor/badge";
+import { cvsl } from "../../constants/Dash/topBadges/cvs11/badge";
 
 const Content = () => {
   return (
@@ -68,7 +70,9 @@ const Content = () => {
         }
       />
 
-      <TopBadges data={[pcRichard, target, abercrombie, bestBuy]} />
+      <TopBadges
+        data={[cvsl, pcRichard, visor, target, abercrombie, bestBuy]}
+      />
 
       <BadgeSection
         data={[ourContentShop, sports, paidTopSpot, bangUrBuck, getYourBestBuy]}
@@ -91,7 +95,7 @@ const Content = () => {
 
             <AdRow04
               ad1Href={mockHref}
-              ad1Src={"/manzashops/assets/ad/perfume2.jpeg"}
+              ad1Src={"/manzashops/assets/ad/abercrombiead5.png"}
               ad1Alt={"perfume2"}
               ad2Href={mockHref}
               ad2Src={"/manzashops/assets/ad/target1.jpeg"}
@@ -135,6 +139,15 @@ const Content = () => {
         ]}
       />
 
+      <BadgeSection
+        data={[
+          fashionForward,
+          inGear,
+          luxuryLines,
+          savingsSpotlight,
+          bestDeals,
+        ]}
+      />
       <BadgeSection
         data={[
           fashionForward,

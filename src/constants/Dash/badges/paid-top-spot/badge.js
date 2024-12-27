@@ -3,11 +3,11 @@ import { section02Categories } from "./sections/section02/section02Categories";
 import { section03Categories } from "./sections/section03/section03Categories";
 import { section04Categories } from "./sections/section04/section04Categories";
 import { section05Categories } from "./sections/section05/section05Categories";
-import { section06Categories } from "./sections/section06/section06Categories";
-import { section07Categories } from "./sections/section07/section07Categories";
+// import { section06Categories } from "./sections/section06/section06Categories";
+// import { section07Categories } from "./sections/section07/section07Categories";
 import { content } from "./content";
-import { adSection01 } from "./sections/adSection01/adSection01";
-import { adSection02 } from "./sections/adSection02/adSection02";
+import { adsSection01 } from "./sections/adsSection01";
+// import { adsSection02 } from "./sections/adsSection02";
 
 export const paidTopSpot = {
   title: "Sneakers",

@@ -7,7 +7,7 @@ export const content = [
   {
     name: "target",
     href: null,
-    src: "/manzashops/assets/badge/target logo.png",
+    src: "/manzashops/assets/badge/target.png",
   },
   {
     name: "walmart",

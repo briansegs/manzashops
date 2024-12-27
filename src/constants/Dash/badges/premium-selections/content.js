@@ -1,21 +1,21 @@
 export const content = [
   {
-    name: "nike",
+    name: "ikea",
     href: null,
     src: "/manzashops/assets/nike.jpeg",
   },
   {
-    name: "adidas",
+    name: "Raymour & Falnin",
     href: null,
     src: "/manzashops/assets/adidas.jpeg",
   },
   {
-    name: "puma",
+    name: "Bobs Discount",
     href: null,
     src: "/manzashops/assets/puma.jpeg",
   },
   {
-    name: "aldo",
+    name: "box 1",
     href: null,
     src: "/manzashops/assets/aldo.jpeg",
   },

@@ -7,7 +7,7 @@ import { group05 } from "./categoryProducts/group05";
 export const section05Categories = [
   {
     id: "cat0031",
-    categoryTitle: "Fitness & Training",
+    categoryTitle: "Fitness & Training 1",
     products: group01,
   },
   {

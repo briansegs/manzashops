@@ -10,20 +10,38 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 import { adSection02 } from "./sections/adSection02/adSection02";
 
 export const fashionForward = {
-  title: "Fashion Forward",
+  title: "Home Improvement",
   id: "fashion-forward",
   btnImg: "/manzashops/assets/badge/gift2.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "deals",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },
     {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
+    },
+    {
       id: "sec0002",
-      sectionName: "deals",
+      sectionName: "tools",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
+      categories: section02Categories,
+    },
+    {
+      id: "sec0002",
+      sectionName: "Materials",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
+      categories: section02Categories,
+    },
+    {
+      id: "sec0002",
+      sectionName: "Fences",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
       categories: section02Categories,
     },
@@ -35,34 +53,35 @@ export const fashionForward = {
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "painting",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
     },
     {
       id: "sec0005",
-      sectionName: "seasonal",
+      sectionName: "Doors and counters",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
     {
       id: "sec0006",
-      sectionName: "clearance",
+      sectionName: "tiles",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
       categories: section06Categories,
     },
     {
       id: "sec0007",
-      sectionName: "recommended",
+      sectionName: "Plants",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
     {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adSection01,
+      id: "sec0007",
+      sectionName: "Play Grounds",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
     },
+
     {
       id: "adSec0002",
       ad: true,

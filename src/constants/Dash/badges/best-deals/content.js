@@ -1,6 +1,6 @@
 export const content = [
   {
-    name: "nike",
+    name: "Deals",
     href: null,
     src: "/manzashops/assets/nike.jpeg",
   },

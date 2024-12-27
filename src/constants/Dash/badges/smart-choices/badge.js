@@ -10,7 +10,7 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 import { adSection02 } from "./sections/adSection02/adSection02";
 
 export const smartChoices = {
-  title: "Smart Choices",
+  title: "Just Candles",
   id: "smart-choices",
   btnImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
   content: content,
