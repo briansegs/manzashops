@@ -65,13 +65,13 @@ export const ourContentShop = {
     },
     {
       id: "sec0007",
-      sectionName: "jackets",
+      sectionName: "jackets1",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
     {
-      id: "sec0007",
-      sectionName: "jackets",
+      id: "sec0008",
+      sectionName: "jackets2",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },

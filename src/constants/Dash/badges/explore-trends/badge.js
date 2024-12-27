@@ -25,7 +25,7 @@ export const exploreTrends = {
       id: "adSec0001",
       ad: true,
       sectionName: "Ads 1",
-      ads: adsSection01,
+      ads: adSection01,
     },
     {
       id: "sec0002",
@@ -73,7 +73,7 @@ export const exploreTrends = {
     //   id: "adSec0002",
     //   ad: true,
     //   sectionName: "Ads 2",
-    //   ads: adsSection02,
+    //   ads: adSection02,
     // },
   ],
 };

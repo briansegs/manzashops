@@ -3,21 +3,21 @@ import { section02Categories } from "./sections/section02/section02Categories";
 import { section03Categories } from "./sections/section03/section03Categories";
 import { section04Categories } from "./sections/section04/section04Categories";
 import { section05Categories } from "./sections/section05/section05Categories";
-// import { section06Categories } from "./sections/section06/section06Categories";
-// import { section07Categories } from "./sections/section07/section07Categories";
+import { section06Categories } from "./sections/section06/section06Categories";
+import { section07Categories } from "./sections/section07/section07Categories";
 import { adSection01 } from "./sections/adSection01/adSection01";
-// import { adSection02 } from "./sections/adSection02/adSection02";
+import { adSection02 } from "./sections/adSection02/adSection02";
 
-export const visor = {
-  title: "Visor",
-  id: "visor",
-  btnImg: "/manzashops/assets/icons/visor.png",
+export const target = {
+  title: "Target",
+  id: "target",
+  btnImg: "/manzashops/assets/badge/target.png",
   href: "/",
   sections: [
     {
       id: "sec0001",
       sectionName: "mix",
-      sectionImg: "/manzashops/assets/badge/youtube",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },
     {

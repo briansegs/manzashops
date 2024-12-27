@@ -68,7 +68,7 @@ export const latestLooks = {
     //   id: "adSec0002",
     //   ad: true,
     //   sectionName: "Ads 2",
-    //   ads: adsSection02,
+    //   ads: adSection02,
     // },
   ],
 };

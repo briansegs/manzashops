@@ -25,7 +25,7 @@ export const fashionForward = {
       id: "adSec0001",
       ad: true,
       sectionName: "Ads 1",
-      ads: adsSection01,
+      ads: adSection01,
     },
     {
       id: "sec0002",
