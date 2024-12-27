@@ -17,12 +17,17 @@ export const content = [
   {
     name: "ugg",
     href: null,
-    src: "/manzashops/assets/shoes/ugg.webp",
+    src: "/manzashops/assets/shoes/ugg01.png",
   },
   {
     name: "puma",
     href: null,
     src: "/manzashops/assets/puma.jpeg",
+  },
+  {
+    name: "Foot Locker",
+    href: null,
+    src: "/manzashops/assets/shoes/foolocker.png",
   },
   {
     name: "aldo",
@@ -33,7 +38,7 @@ export const content = [
   {
     name: "altra",
     href: null,
-    src: "/manzashops/assets/shoes/altra.webp",
+    src: "/manzashops/assets/altar.png",
   },
 
   {
@@ -86,15 +91,15 @@ export const content = [
     href: null,
     src: "/manzashops/assets/shoes/reebok.jpeg",
   },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
   {
-    name: "adidas",
+    name: "Timber Land",
     href: null,
     src: "/manzashops/assets/shoes/timberland.webp",
-  },
-  {
-    name: "Timber...",
-    href: null,
-    src: "/manzashops/assets/shoes/allbirds.webp",
   },
   {
     name: "nothingn..",
@@ -121,32 +126,22 @@ export const content = [
     href: "https://www.flaticon.com/search?word=i/",
     src: "/manzashops/assets/shoes/colehaan.webp",
   },
-
-
-
-
-
-
-  // {
-  //   name: "nike",
-  //   href: null,
-  //   src: "/manzashops/assets/nike.jpeg",
-  // },
-  // {
-  //   name: "adidas",
-  //   href: null,
-  //   src: "/manzashops/assets/adidas.jpeg",
-  // },
-  // {
-  //   name: "puma",
-  //   href: null,
-  //   src: "/manzashops/assets/puma.jpeg",
-  // },
-  // {
-  //   name: "aldo",
-  //   href: null,
-  //   src: "/manzashops/assets/aldo.jpeg",
-  // },
+ 
+  {
+    name: "New balance",
+    href: null,
+    src: "/manzashops/assets/badge/newbalace.png",
+  },
+  {
+    name: "Reebok",
+    href: null,
+    src: "/manzashops/assets/badge/reebok.png",
+  },
+  {
+    name: "Jordan",
+    href: null,
+    src: "/manzashops/assets/badge/jordansbadge1.png",
+  },
   // {
   //   name: "nike",
   //   href: null,

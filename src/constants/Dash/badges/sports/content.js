@@ -12,7 +12,7 @@ export const content = [
   {
     name: "Disney",
     href: null,
-    src: "/manzashops/assets/icons/disney.webp",
+    src: "/manzashops/assets/disneyjewel.png",
   },
   {
     name: "zales",

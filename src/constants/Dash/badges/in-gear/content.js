@@ -1,31 +1,31 @@
 export const content = [
   {
-    name: "nike",
+    name: "Staples",
     href: null,
-    src: "/manzashops/assets/nike.jpeg",
+    src: "/manzashops/assets/",
   },
   {
-    name: "adidas",
+    name: "Office Supply",
     href: null,
     src: "/manzashops/assets/adidas.jpeg",
   },
   {
-    name: "puma",
+    name: "Quill Corp",
     href: null,
     src: "/manzashops/assets/puma.jpeg",
   },
   {
-    name: "aldo",
+    name: "Walmart",
     href: null,
     src: "/manzashops/assets/aldo.jpeg",
   },
   {
-    name: "nike",
+    name: "Best Buy",
     href: null,
     src: "/manzashops/assets/nike.jpeg",
   },
   {
-    name: "adidas",
+    name: "Fedex Office",
     href: null,
     src: "/manzashops/assets/adidas.jpeg",
   },

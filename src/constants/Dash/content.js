@@ -7,11 +7,7 @@ export const adRow1data001 = [
     href: "https://webflow.com/",
     src: "/manzashops/assets/ad/urad1.png",
   },
-  {
-    id: "ad0011",
-    href: mockHref,
-    src: "/manzashops/assets/ad/urad2.png",
-  },
+
   {
     id: "ad0012",
     href: mockHref,
@@ -20,7 +16,12 @@ export const adRow1data001 = [
   {
     id: "ad0013",
     href: mockHref,
-    src: "/manzashops/assets/ad/movie31.jpeg",
+    src: "/manzashops/assets/ad/cashappad2.png",
+  },
+  {
+    id: "ad0011",
+    href: mockHref,
+    src: "/manzashops/assets/ad/urad2.png",
   },
   {
     id: "ad0014",
@@ -43,13 +44,13 @@ export const adRow03data001 = [
   {
     id: "ad0010",
     href: mockHref,
-    src: "/manzashops/assets/ad/clothes.jpeg",
+    src: "/manzashops/assets/ad/paypalad2.png",
     alt: "clothes",
   },
   {
     id: "ad0011",
     href: mockHref,
-    src: "/manzashops/assets/ad/clothes.jpeg",
+    src: "/manzashops/assets/ad/petinsur.png",
     alt: "clothes",
   },
   {
@@ -70,7 +71,7 @@ export const adRow05data001 = [
   {
     id: "ad0004",
     href: mockHref,
-    src: "/manzashops/assets/ad/collection1.jpeg",
+    src: "/manzashops/assets/ad/target2.jpeg",
     alt: "collection1",
   },
   {

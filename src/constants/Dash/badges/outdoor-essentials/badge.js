@@ -10,22 +10,28 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const outdoorEssentials = {
-  title: "Outdoor Essentials",
+  title: "Indoor Home Fans",
   id: "outdoor-essentials",
   btnImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
   content: content,
   sections: [
-    {
-      id: "sec0001",
-      sectionName: "main",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
-      categories: section01Categories,
-    },
+    // {
+    //   id: "sec0001",
+    //   sectionName: "mix",
+    //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
+    //   categories: section01Categories,
+    // },
     {
       id: "sec0002",
       sectionName: "deals",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
       categories: section02Categories,
+    },
+    {
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adsSection01,
     },
     {
       id: "sec0003",
@@ -35,39 +41,34 @@ export const outdoorEssentials = {
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "Humidifiers",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
     },
     {
       id: "sec0005",
-      sectionName: "seasonal",
+      sectionName: "A/C's",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
     {
       id: "sec0006",
-      sectionName: "clearance",
+      sectionName: "Fans",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
       categories: section06Categories,
     },
-    {
-      id: "sec0007",
-      sectionName: "recommended",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
-      categories: section07Categories,
-    },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adsSection01,
-    },
-    {
-      id: "adSec0002",
-      ad: true,
-      sectionName: "Ads 2",
-      ads: adsSection02,
-    },
+    // {
+    //   id: "sec0007",
+    //   sectionName: "",
+    //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+    //   categories: section07Categories,
+    // },
+
+    // {
+    //   id: "adSec0002",
+    //   ad: true,
+    //   sectionName: "Ads 2",
+    //   ads: adsSection02,
+    // },
   ],
 };

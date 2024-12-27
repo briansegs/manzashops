@@ -4,13 +4,13 @@ import { section03Categories } from "./sections/section03/section03Categories";
 import { section04Categories } from "./sections/section04/section04Categories";
 import { section05Categories } from "./sections/section05/section05Categories";
 import { section06Categories } from "./sections/section06/section06Categories";
-import { section07Categories } from "./sections/section07/section07Categories";
+// import { section07Categories } from "./sections/section07/section07Categories";
 import { content } from "./content";
 import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const freshFinds = {
-  title: "Boots",
+  title: " Just Boots",
   id: "fresh-finds",
   btnImg: "/manzashops/assets/boots01.png",
   content: content,

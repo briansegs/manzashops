@@ -10,7 +10,7 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const eliteChoices = {
-  title: "Elite Choices",
+  title: "League Shops",
   id: "elite-choices",
   btnImg: "/manzashops/assets/badge/hats.png",
   content: content,

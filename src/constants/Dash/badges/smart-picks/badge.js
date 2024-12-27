@@ -10,9 +10,9 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const smartPicks = {
-  title: "Smart Picks",
+  title: " Just Suits",
   id: "smart-picks",
-  btnImg: "/manzashops/assets/top01.png",
+  btnImg: "/manzashops/assets/suits.png",
   content: content,
   sections: [
     {

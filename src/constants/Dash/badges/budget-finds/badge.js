@@ -10,52 +10,16 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const budgetFinds = {
-  title: "Budget Finds",
+  title: "Decorations Supplies",
   id: "budget-finds",
   btnImg: "/manzashops/assets/badge/gift2.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "Deals",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
-    },
-    {
-      id: "sec0002",
-      sectionName: "deals",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
-      categories: section02Categories,
-    },
-    {
-      id: "sec0003",
-      sectionName: "new-arrivals",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
-      categories: section03Categories,
-    },
-    {
-      id: "sec0004",
-      sectionName: "popular",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
-      categories: section04Categories,
-    },
-    {
-      id: "sec0005",
-      sectionName: "seasonal",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
-      categories: section05Categories,
-    },
-    {
-      id: "sec0006",
-      sectionName: "clearance",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
-      categories: section06Categories,
-    },
-    {
-      id: "sec0007",
-      sectionName: "recommended",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
-      categories: section07Categories,
     },
     {
       id: "adSec0001",
@@ -63,6 +27,49 @@ export const budgetFinds = {
       sectionName: "Ads 1",
       ads: adsSection01,
     },
+    {
+      id: "sec0001",
+      sectionName: "Lamps",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
+      categories: section01Categories,
+    },
+    {
+      id: "sec0002",
+      sectionName: "pillows",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
+      categories: section02Categories,
+    },
+    {
+      id: "sec0003",
+      sectionName: "Blankets",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
+      categories: section03Categories,
+    },
+    {
+      id: "sec0004",
+      sectionName: "curtains & Blinds",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
+      categories: section04Categories,
+    },
+    {
+      id: "sec0005",
+      sectionName: "Cloths",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section05Categories,
+    },
+    {
+      id: "sec0006",
+      sectionName: "table decorations",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
+      categories: section06Categories,
+    },
+    // {
+    //   id: "sec0007",
+    //   sectionName: "kitchen Supplies",
+    //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+    //   categories: section07Categories,
+    // },
+
     {
       id: "adSec0002",
       ad: true,

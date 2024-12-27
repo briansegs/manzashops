@@ -10,14 +10,14 @@ import { adsSection01 } from "./sections/adsSection01";
 import { adsSection02 } from "./sections/adsSection02";
 
 export const brightBuys = {
-  title: "Bright Buys",
+  title: "Popular Sport Teams",
   id: "bright-buys",
-  btnImg: "/manzashops/assets/badge/gift2.png",
+  btnImg: "/manzashops/assets/badge/laund.png",
   content: content,
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "mix",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },

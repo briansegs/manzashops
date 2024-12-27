@@ -12,12 +12,12 @@ export const content = [
   {
     name: "disney",
     href: null,
-    src: "/manzashops/assets/stream/disney.webp",
+    src: "/manzashops/assets/stream/dis.jpeg",
   },
   {
     name: "hulu",
     href: null,
-    src: "/manzashops/assets/stream/hulu.png",
+    src: "/manzashops/assets/stream/hu.png",
   },
   {
     name: "peacock",
