@@ -42,13 +42,13 @@ import {
   bestDeals,
   pcRichard,
   abercrombie,
-  target,
   bestBuy,
 } from "../../constants/Dash";
 import TopBadges from "./TopBadges";
 import { adRow03data001 } from "../../constants/Dash/content";
-import { visor } from "../../constants/Dash/topBadges/Visor/badge";
+import { visor } from "../../constants/Dash/topBadges/visor/badge";
 import { cvsl } from "../../constants/Dash/topBadges/cvs11/badge";
+import { target } from "../../constants/Dash/topBadges/target/badge";
 
 const Content = () => {
   return (
@@ -71,16 +71,7 @@ const Content = () => {
       />
 
       <TopBadges
-        data={[
-          cvsl,
-          pcRichard,
-          visor,
-          target,
-          abercrombie,
-          bestBuy,
-         
-    
-        ]}
+        data={[cvsl, pcRichard, visor, target, abercrombie, bestBuy]}
       />
 
       <BadgeSection
@@ -101,7 +92,6 @@ const Content = () => {
         ads={
           <>
             <AdRow03 data={adRow03data001} />
-           
 
             <AdRow04
               ad1Href={mockHref}
@@ -114,8 +104,6 @@ const Content = () => {
           </>
         }
       />
-
-
 
       <BadgeSection
         data={[freshFinds, gearUp, premiumPicks, dealHunters, smartPicks]}
@@ -169,9 +157,6 @@ const Content = () => {
           bestDeals,
         ]}
       />
-
-
-
     </section>
   );
 };

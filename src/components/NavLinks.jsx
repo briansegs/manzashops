@@ -15,8 +15,8 @@ const NavLinks = ({ navItems }) => (
       >
         {({ isActive }) => (
           <>
-            <span>{isActive && "| "}</span>{" "}
-            <span className={isActive && "underline"}>{name}</span>
+            <span>{isActive ? "| " : undefined}</span>{" "}
+            <span className={isActive ? "underline" : undefined}>{name}</span>
           </>
         )}
       </NavLink>

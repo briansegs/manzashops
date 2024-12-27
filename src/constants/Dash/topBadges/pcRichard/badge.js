@@ -5,8 +5,8 @@ import { section04Categories } from "./sections/section04/section04Categories";
 import { section05Categories } from "./sections/section05/section05Categories";
 import { section06Categories } from "./sections/section06/section06Categories";
 import { section07Categories } from "./sections/section07/section07Categories";
-import { adsSection01 } from "./sections/adsSection01";
-import { adsSection02 } from "./sections/adsSection02";
+import { adSection01 } from "./sections/adSection01/adSection01";
+import { adSection02 } from "./sections/adSection02/adSection02";
 
 export const pcRichard = {
   title: "Pc Richard ",
@@ -60,13 +60,13 @@ export const pcRichard = {
       id: "adSec0001",
       ad: true,
       sectionName: "Ads 1",
-      ads: adsSection01,
+      ads: adSection01,
     },
     {
       id: "adSec0002",
       ad: true,
       sectionName: "Ads 2",
-      ads: adsSection02,
+      ads: adSection02,
     },
   ],
 };
