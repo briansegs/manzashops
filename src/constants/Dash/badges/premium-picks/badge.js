@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const premiumPicks = {
   title: " Just Dresses",
   id: "premium-picks",
-  btnImg: "/manzashops/assets/badge/topdress1.png",
+  btnImg: "/manzashops/assets/ad/oneone.png",
   content: content,
   sections: [
     {

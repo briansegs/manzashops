@@ -2,241 +2,241 @@ export const content = [
   {
     name: "ikea",
     href: null,
-    src: "/manzashops/assets/nike.jpeg",
+    src: "/manzashops/assets/furniture/fi.png",
   },
   {
     name: "Raymour & Falnin",
     href: null,
-    src: "/manzashops/assets/adidas.jpeg",
+    src: "/manzashops/assets/furniture/furraymour.png",
   },
   {
     name: "Bobs Discount",
     href: null,
-    src: "/manzashops/assets/puma.jpeg",
+    src: "/manzashops/assets/furniture/furbobs.png",
   },
   {
-    name: "box 1",
+    name: "Macys",
     href: null,
-    src: "/manzashops/assets/aldo.jpeg",
+    src: "/manzashops/assets/furniture/furmays.png",
   },
   {
-    name: "nike",
+    name: "Jc Penny",
     href: null,
-    src: "/manzashops/assets/nike.jpeg",
+    src: "/manzashops/assets/furniture/furjcpenny.png",
   },
   {
-    name: "adidas",
+    name: "Mattress Firm",
     href: null,
-    src: "/manzashops/assets/adidas.jpeg",
+    src: "/manzashops/assets/furniture/furmattressfirm.png",
   },
   {
-    name: "puma",
+    name: "walmart",
     href: null,
-    src: "/manzashops/assets/puma.jpeg",
+    src: "/manzashops/assets/furniture/furwalmart.png",
   },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
-  {
-    name: "nike",
-    href: null,
-    src: "/manzashops/assets/nike.jpeg",
-  },
-  {
-    name: "adidas",
-    href: null,
-    src: "/manzashops/assets/adidas.jpeg",
-  },
-  {
-    name: "puma",
-    href: null,
-    src: "/manzashops/assets/puma.jpeg",
-  },
-  {
-    name: "aldo",
-    href: null,
-    src: "/manzashops/assets/aldo.jpeg",
-  },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
+  // {
+  //   name: "nike",
+  //   href: null,
+  //   src: "/manzashops/assets/nike.jpeg",
+  // },
+  // {
+  //   name: "adidas",
+  //   href: null,
+  //   src: "/manzashops/assets/adidas.jpeg",
+  // },
+  // {
+  //   name: "puma",
+  //   href: null,
+  //   src: "/manzashops/assets/puma.jpeg",
+  // },
+  // {
+  //   name: "aldo",
+  //   href: null,
+  //   src: "/manzashops/assets/aldo.jpeg",
+  // },
 ];

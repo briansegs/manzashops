@@ -26,12 +26,12 @@ export const adRow1data001 = [
   {
     id: "ad0014",
     href: mockHref,
-    src: "/manzashops/assets/ad/manza.png",
+    src: "/manzashops/assets/ad/applead10.png",
   },
   {
     id: "ad0015",
     href: "https://webflow.com/",
-    src: "/manzashops/assets/ad/webflow.jpeg",
+    src: "/manzashops/assets/ad/urad3.png",
   },
   {
     id: "ad0001",

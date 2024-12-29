@@ -10,7 +10,7 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 import { adSection02 } from "./sections/adSection02/adSection02";
 
 export const sports = {
-  title: "Jewelery Shops",
+  title: "Jewelery",
   id: "sports",
   btnImg: "/manzashops/assets/jewel.png",
   content: content,

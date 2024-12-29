@@ -1,8 +1,8 @@
 export const sliderData = [
   {
     id: "img0001",
-    href: "",
-    src: "/manzashops/assets/manza.png",
+    href: "https://www.bestbuy.com/",
+    src: "/manzashops/assets/ad/ferrari2.png",
     styles: "border-secondary border-b-4",
   },
   {
