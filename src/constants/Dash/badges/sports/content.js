@@ -37,7 +37,7 @@ export const content = [
   {
     name: "Kay",
     href: null,
-    src: "/manzashops/assets/icons/kay.webp",
+    src: "/manzashops/assets/icons/jlk.jpeg",
   },
   {
     name: "Baublebar",
@@ -57,7 +57,7 @@ export const content = [
   {
     name: "crislu",
     href: null,
-    src: "/manzashops/assets/icons/crislu.webp",
+    src: "/manzashops/assets/icons/jewlcrislu.png",
   },
   {
     name: "G-Shock",

@@ -49,6 +49,9 @@ import { adRow03data001 } from "../../constants/Dash/content";
 import { visor } from "../../constants/Dash/topBadges/visor/badge";
 import { cvsl } from "../../constants/Dash/topBadges/cvs11/badge";
 import { target } from "../../constants/Dash/topBadges/target/badge";
+import { macys } from "../../constants/Dash/topBadges/macys/badge";
+
+
 
 const Content = () => {
   return (
@@ -71,11 +74,13 @@ const Content = () => {
       />
 
       <TopBadges
-        data={[ cvsl, pcRichard, visor, target, abercrombie, bestBuy]}
+        data={[ cvsl, pcRichard, visor, target, abercrombie, bestBuy, macys,]}
       />
 
+
+
       <BadgeSection
-        data={[ourContentShop, sports, paidTopSpot, bangUrBuck, getYourBestBuy]}
+        data={[ ourContentShop, sports, paidTopSpot, bangUrBuck, getYourBestBuy,]}
       />
 
       <BadgeSection
