@@ -20,6 +20,10 @@ export const navItems = [
     name: "Jobs",
   },
   {
+    path: "listings",
+    name: "Listings",
+  },
+  {
     path: "menus",
     name: "Menus",
   },
