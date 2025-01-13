@@ -1,10 +1,10 @@
 export const navItems = [
   {
-    path: "/manzashops/",
+    path: "home",
     name: "Home",
   },
   {
-    path: "dash",
+    path: "/manzashops/",
     name: "Dash",
   },
   {
