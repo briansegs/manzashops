@@ -110,7 +110,7 @@ const Suggestions = () => {
       clickedButtonRef.current = id;
       setActiveButton(id);
 
-      const offset = 110; // Adjust this value to set offset
+      const offset = 110; // set offset
       const elementPosition =
         targetElement.getBoundingClientRect().top + window.scrollY;
 
