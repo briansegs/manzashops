@@ -43,7 +43,41 @@ import { abercrombie } from "./topBadges/abercrombie/badge";
 import { bestBuy } from "./topBadges/bestBuy/badge";
 import { target } from "./topBadges/target/badge";
 
+const suggetionsItems = [
+  ourContentShop,
+  sports,
+  paidTopSpot,
+  bangUrBuck,
+  getYourBestBuy,
+  exploreTrends,
+  activeGear,
+  exclusivePicks,
+  valueVault,
+  shopSmarter,
+  freshFinds,
+  gearUp,
+  premiumPicks,
+  dealHunters,
+  smartPicks,
+  topTrends,
+  adventureReady,
+  eliteChoices,
+  savvySavings,
+  brightBuys,
+  latestLooks,
+  outdoorEssentials,
+  premiumSelections,
+  budgetFinds,
+  smartChoices,
+  fashionForward,
+  inGear,
+  luxuryLines,
+  savingsSpotlight,
+  bestDeals,
+];
+
 export {
+  suggetionsItems,
   target,
   langItems,
   mockHref,
