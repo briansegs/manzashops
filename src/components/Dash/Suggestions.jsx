@@ -110,7 +110,7 @@ const Suggestions = () => {
       clickedButtonRef.current = id;
       setActiveButton(id);
 
-      const offset = 140; // Adjust this value to set offset
+      const offset = 110; // Adjust this value to set offset
       const elementPosition =
         targetElement.getBoundingClientRect().top + window.scrollY;
 
@@ -127,7 +127,7 @@ const Suggestions = () => {
   };
 
   return (
-    <div className="flex items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap sticky px-2 top-0 z-50 overflow-x-auto h-32">
+    <div className="flex items-center gap-4 justify-between bg-[#141414] border-[3px] border-black flex-nowrap sticky px-3 top-0 z-50 overflow-x-auto h-24">
       <ScrollToTop />
 
       {[
@@ -161,16 +161,18 @@ const Suggestions = () => {
         luxuryLines,
         savingsSpotlight,
         bestDeals,
-      ].map(({ id, btnImg, title }) => (
+      ].map(({ id, title }) => (
         <button
           key={id}
           type="button"
           onClick={() => scrollToElement(id)}
-          className={`capitalize text-[28px] text-white border-[1px] border-[#1b1e23] ${
-            activeButton === id ? "bg-secondary" : "bg-black"
-          } rounded-full flex size-[100px] justify-center items-center hover:text-secondary shadow-[3px_3px_3px_white] hover:shadow-[3px_3px_3px_#60b3d1] overflow-hidden flex-shrink-0`}
+          className={` ${
+            activeButton === id
+              ? "text-secondary border-secondary"
+              : "text-white border-white"
+          } border-[1px] rounded-[10px] flex w-fit justify-center items-center hover:border-secondary hover:text-secondary shrink-0`}
         >
-          {/* <img src={btnImg} alt={title} className="object-fit size-full" /> */}
+          <p className="capitalize text-2xl px-5 py-2">{title}</p>
         </button>
       ))}
     </div>

@@ -1,4 +1,4 @@
-import { RxPinTop } from "react-icons/rx";
+import { RiArrowUpSFill } from "react-icons/ri";
 
 const ScrollToTop = () => {
   const scrollToTop = () => {
@@ -12,9 +12,9 @@ const ScrollToTop = () => {
     <button
       type="button"
       onClick={scrollToTop}
-      className="capitalize text-[28px] text-white border-[1px] border-[#1b1e23] bg-black rounded-full flex size-[100px] justify-center items-center hover:text-secondary shadow-[3px_3px_3px_white] hover:shadow-[3px_3px_3px_#60b3d1] overflow-hidden flex-shrink-0"
+      className="border-[1px] rounded-[10px] flex w-fit justify-center items-center border-white hover:bg-secondary hover:border-secondary shrink-0 bg-white"
     >
-      <RxPinTop className="size-11" />
+      <RiArrowUpSFill className="size-11 text-header" />
     </button>
   );
 };
