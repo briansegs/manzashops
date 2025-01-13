@@ -1,11 +1,9 @@
-import { sliderData } from "../../constants/Dash/hero";
-
-const ImageSlider = () => {
+const HeroImageSlider = ({ data }) => {
   return (
     <>
       <div className="relative flex-1">
         <div className="flex w-full lg:h-[60vh] h-full overflow-x-auto">
-          {sliderData.map(({ id, href, src, styles }) => (
+          {data.map(({ id, href, src, styles }) => (
             <a key={id} href={href} className="w-full flex-shrink-0">
               <img
                 src={src}
@@ -23,4 +21,4 @@ const ImageSlider = () => {
   );
 };
 
-export default ImageSlider;
+export default HeroImageSlider;

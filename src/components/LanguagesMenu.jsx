@@ -1,4 +1,4 @@
-const Languages = ({ data }) => {
+const LanguagesMenu = ({ data }) => {
   return (
     <div className="bg-black lg:w-72 w-full lg:h-[60vh] h-full flex flex-col rounded-[10px]">
       <p className="text-[#f2f2f2] lg:mb-[10vh] pl-2">Choose Your Language</p>
@@ -24,4 +24,4 @@ const Languages = ({ data }) => {
   );
 };
 
-export default Languages;
+export default LanguagesMenu;
