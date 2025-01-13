@@ -1,4 +1,4 @@
-import { langItems } from "./languages";
+import { langItems } from "../languages";
 import {
   mockHref,
   adRow1data001,
