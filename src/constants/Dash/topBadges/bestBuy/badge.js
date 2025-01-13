@@ -16,7 +16,7 @@ export const bestBuy = {
   sections: [
     {
       id: "sec0001",
-      sectionName: "main",
+      sectionName: "Mix",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
       categories: section01Categories,
     },
@@ -33,45 +33,46 @@ export const bestBuy = {
       ads: adSection01,
     },
     {
+      id: "adSec0002",
+      ad: true,
+      sectionName: "Ads 2",
+      ads: adSection02,
+    },
+    {
       id: "sec0003",
-      sectionName: "new-arrivals",
+      sectionName: "Home Theater",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
       categories: section03Categories,
     },
     {
       id: "sec0004",
-      sectionName: "popular",
+      sectionName: "Tech",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
       categories: section04Categories,
     },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Collections",
-      ads: adSection01,
-    },
+    // {
+    //   id: "adSec0001",
+    //   ad: true,
+    //   sectionName: "Collections",
+    //   ads: adSection01,
+    // },
     {
       id: "sec0005",
-      sectionName: "seasonal",
+      sectionName: "Home Appliances",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
-    {
-      id: "adSec0002",
-      ad: true,
-      sectionName: "Coming Soon!",
-      ads: adSection02,
-    },
+
     {
       id: "sec0006",
-      sectionName: "clearance",
+      sectionName: "cameras",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
       categories: section06Categories,
     },
 
     {
       id: "sec0007",
-      sectionName: "recommended",
+      sectionName: "Clearance",
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },

@@ -50,18 +50,18 @@ export const target = {
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section05Categories,
     },
-    // {
-    //   id: "sec0006",
-    //   sectionName: "clearance",
-    //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
-    //   categories: section06Categories,
-    // },
-    // {
-    //   id: "sec0007",
-    //   sectionName: "recommended",
-    //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
-    //   categories: section07Categories,
-    // },
+    {
+      id: "sec0006",
+      sectionName: "Groceries",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
+      categories: section06Categories,
+    },
+    {
+      id: "sec0007",
+      sectionName: "Furniture",
+      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
+      categories: section07Categories,
+    },
 
     // {
     //   id: "adSec0002",

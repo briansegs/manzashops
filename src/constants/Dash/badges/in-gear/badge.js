@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const inGear = {
   title: "Office Suppliers",
   id: "in-gear",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-5.png",
+  btnImg: "/manzashops/assets/homeimprov/homestaples.png",
   content: content,
   sections: [
     {

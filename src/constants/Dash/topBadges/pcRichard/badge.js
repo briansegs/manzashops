@@ -14,12 +14,19 @@ export const pcRichard = {
   btnImg: "/manzashops/assets/badge/Pc richard.png",
   href: "/",
   sections: [
+
     {
-      id: "sec0001",
-      sectionName: "maix",
-      sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
-      categories: section01Categories,
+      id: "adSec0001",
+      ad: true,
+      sectionName: "Ads 1",
+      ads: adSection01,
     },
+    // {
+    //   id: "sec0001",
+    //   sectionName: "maix",
+    //   sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-4.png",
+    //   categories: section01Categories,
+    // },
     {
       id: "sec0002",
       sectionName: "deals",
@@ -56,12 +63,7 @@ export const pcRichard = {
       sectionImg: "/manzashops/assets/badge/YouTube Thumbnail-2.png",
       categories: section07Categories,
     },
-    {
-      id: "adSec0001",
-      ad: true,
-      sectionName: "Ads 1",
-      ads: adSection01,
-    },
+ 
     {
       id: "adSec0002",
       ad: true,

@@ -22,12 +22,12 @@ export const content = [
   {
     name: " Itunes",
     href: null,
-    src: "/manzashops/assets/stream/itunes.jpeg",
+    src: "/manzashops/assets/stream/streamapp.png",
   },
   {
     name: "Google Play",
     href: null,
-    src: "/manzashops/assets/stream/googleplay.png",
+    src: "/manzashops/assets/badge/playstore01.png",
   },
   // {
   //   name: "puma",

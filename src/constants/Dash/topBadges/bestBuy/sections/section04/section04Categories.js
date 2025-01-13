@@ -7,27 +7,27 @@ import { group05 } from "./categoryProducts/group05";
 export const section04Categories = [
   {
     id: "cat0021",
-    categoryTitle: "Outdoor Adventures",
+    categoryTitle: "Laptops & Desktops",
     products: group01,
   },
   {
     id: "cat0022",
-    categoryTitle: "Home Essentials",
+    categoryTitle: "Accessories",
     products: group02,
   },
   {
     id: "cat0023",
-    categoryTitle: "Gaming Gear",
+    categoryTitle: "Cell Phones",
     products: group03,
   },
-  {
-    id: "cat0024",
-    categoryTitle: "Health & Wellness",
-    products: group04,
-  },
-  {
-    id: "cat0025",
-    categoryTitle: "Eco-Friendly Finds",
-    products: group05,
-  },
+//   {
+//     id: "cat0024",
+//     categoryTitle: "",
+//     products: group04,
+//   },
+//   {
+//     id: "cat0025",
+//     categoryTitle: "Eco-Friendly Finds",
+//     products: group05,
+//   },
 ];
