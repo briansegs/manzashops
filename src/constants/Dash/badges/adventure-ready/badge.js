@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const adventureReady = {
   title: "Ticket Places",
   id: "adventure-ready",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
+  btnImg: "/manzashops/assets/ad/tix.png",
   content: content,
   sections: [
     {

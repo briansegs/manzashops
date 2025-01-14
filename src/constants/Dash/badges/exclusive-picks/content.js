@@ -1,7 +1,7 @@
 export const content = [
   {
     name: "Target",
-    href: null,
+    href: "https://www.target.com/c/movies-music-books/-/N-5xsx0/",
     src: "/manzashops/assets/badge/target.png",
   },
   {
@@ -11,7 +11,7 @@ export const content = [
   },
   {
     name: "Walmart",
-    href: null,
+    href: "https://www.walmart.com/search/?query=dvd+movies&&adid=22222222220495313972&wmlspartner=wmtlabs&wl0=p&wl1=g&wl2=c&wl3=722704939877&wl4=kwd-355289378796&wl5=9003452&wl6=&wl7=&wl8=&veh=sem&gad_source=1&gclid=Cj0KCQiAs5i8BhDmARIsAGE4xHxShqJFUcn1bZrABXPyeIn7jbCzvLusfBd0oB50_S88y8ozeBP71wEaAqyyEALw_wcB/",
     src: "/manzashops/assets/icons/walmartlogo.png",
   },
   {
@@ -21,12 +21,12 @@ export const content = [
   },
   {
     name: " Itunes",
-    href: null,
+    href: "https://tv.apple.com/",
     src: "/manzashops/assets/stream/streamapp.png",
   },
   {
     name: "Google Play",
-    href: null,
+    href: "https://play.google.com/store/movies?hl=en_US/",
     src: "/manzashops/assets/badge/playstore01.png",
   },
   // {

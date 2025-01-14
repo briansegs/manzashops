@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const exclusivePicks = {
   title: "Movies",
   id: "exclusive-picks",
-  btnImg: "/manzashops/assets/movie01.png",
+  btnImg: "/manzashops/assets/ad/moviess.png",
   content: content,
   sections: [
     {

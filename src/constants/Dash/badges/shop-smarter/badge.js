@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const shopSmarter = {
   title: "Luxury Shops",
   id: "shop-smarter",
-  btnImg: "/manzashops/assets/badge/luxury2.png",
+  btnImg: "/manzashops/assets/ad/luxr.png",
   content: content,
   sections: [
     {
