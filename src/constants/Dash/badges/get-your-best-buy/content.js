@@ -7,12 +7,12 @@ export const content = [
   {
     name: "target",
     href: null,
-    src: "/manzashops/assets/badge/target.png",
+    src: "/manzashops/assets/stream/streamtarget.png",
   },
   {
     name: "walmart",
     href: null,
-    src: "/manzashops/assets/icons/walmartlogo.png",
+    src: "/manzashops/assets/stream/streamwalmart.png",
   },
   {
     name: "gamestop",
@@ -27,32 +27,32 @@ export const content = [
   {
     name: "Xbox",
     href: null,
-    src: "/manzashops/assets/icons/xbox.jpeg",
+    src: "/manzashops/assets/stream/streamxbox.png",
   },
   {
     name: "nintendo",
     href: null,
-    src: "/manzashops/assets/icons/nintendo.png",
+    src: "/manzashops/assets/stream/streamnintendo1.png",
   },
   {
     name: "Apple Arcade",
     href: null,
-    src: "/manzashops/assets/icons/arcade.jpeg",
+    src: "/manzashops/assets/stream/streamarcade1.jpeg",
   },
   {
     name: "Play store",
     href: null,
-    src: "/manzashops/assets/icons/playstore.png",
+    src: "/manzashops/assets/stream/streamgoogle.jpeg",
   },
   {
     name: "Steam",
     href: null,
-    src: "/manzashops/assets/icons/steam.png",
+    src: "/manzashops/assets/stream/streamsteam.jpeg",
   },
   {
     name: "P.C Richard",
     href: null,
-    src: "/manzashops/assets/badge/Pc richard.png",
+    src: "/manzashops/assets/stream/streampc.png",
   },
 
 //   {

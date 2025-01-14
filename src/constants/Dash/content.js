@@ -44,19 +44,19 @@ export const adRow03data001 = [
   {
     id: "ad0010",
     href: mockHref,
-    src: "/manzashops/assets/ad/paypalad2.png",
+    src: "/manzashops/assets/ad/macysad01.webp",
     alt: "clothes",
   },
   {
     id: "ad0011",
     href: mockHref,
-    src: "/manzashops/assets/ad/petinsur.png",
+    src: "/manzashops/assets/ad/paypalad2.png",
     alt: "clothes",
   },
   {
     id: "ad0012",
     href: mockHref,
-    src: "/manzashops/assets/ad/clothes.jpeg",
+    src: "/manzashops/assets/ad/petinsur.png",
     alt: "clothes",
   },
   {
