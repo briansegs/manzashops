@@ -39,7 +39,7 @@ const Header = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } bg-header flex-col absolute top-20 right-0 mx-4 mt-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary z-10`}
+          } bg-header flex-col absolute top-20 right-0 mx-4 mt-2 min-w-[140px] rounded-lg sidebar border-t-4 border-secondary z-20`}
         >
           <div className="p-6">
             <input
