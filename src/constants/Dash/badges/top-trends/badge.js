@@ -12,7 +12,7 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 export const topTrends = {
   title: "Streaming Services",
   id: "top-trends",
-  btnImg: "/manzashops/assets/streaming.png",
+  btnImg: "/manzashops/assets/ad/streamss.png",
   content: content,
   sections: [
     // {

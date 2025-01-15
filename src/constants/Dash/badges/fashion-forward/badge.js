@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const fashionForward = {
   title: "Home Improvement",
   id: "fashion-forward",
-  btnImg: "/manzashops/assets/badge/gift2.png",
+  btnImg: "/manzashops/assets/ad/homeimprov.png",
   content: content,
   sections: [
     {

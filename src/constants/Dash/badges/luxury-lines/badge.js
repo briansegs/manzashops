@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const luxuryLines = {
   title: "Kitchen Supplies",
   id: "luxury-lines",
-  btnImg: "/manzashops/assets/badge/gift2.png",
+  btnImg: "/manzashops/assets/ad/kitchen.png",
   content: content,
   sections: [
     {

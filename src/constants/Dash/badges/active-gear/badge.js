@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const activeGear = {
   title: "Active Gear",
   id: "active-gear",
-  btnImg: "/manzashops/assets/suits.png",
+  btnImg: "/manzashops/assets/ad/agear.png",
   content: content,
   sections: [
     {

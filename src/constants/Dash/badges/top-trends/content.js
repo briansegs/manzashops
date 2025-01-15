@@ -1,52 +1,52 @@
 export const content = [
   {
     name: "Max",
-    href: null,
-    src: "/manzashops/assets/stream/max.jpeg",
+    href: "https://www.max.com/",
+    src: "/manzashops/assets/stream/maxlog.jpeg",
   },
   {
     name: "Netflix",
-    href: null,
-    src: "/manzashops/assets/stream/netflix.png",
+    href: "https://www.netflix.com/",
+    src: "/manzashops/assets/stream/netflixlog.png",
   },
   {
     name: "disney",
-    href: null,
+    href: "https://www.disneyplus.com/",
     src: "/manzashops/assets/stream/dis.jpeg",
   },
   {
     name: "hulu",
-    href: null,
+    href: "https://www.hulu.com/welcome",
     src: "/manzashops/assets/stream/hu.png",
   },
   {
     name: "peacock",
-    href: null,
-    src: "/manzashops/assets/stream/peacock.png",
+    href: "https://www.peacocktv.com/",
+    src: "/manzashops/assets/stream/peacocklog1.jpeg",
   },
   {
     name: "prime",
-    href: null,
-    src: "/manzashops/assets/stream/prime.png",
+    href: "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
+    src: "/manzashops/assets/stream/primelogo.png",
   },
   {
     name: "youtube",
-    href: null,
+    href: "https://www.youtube.com/",
     src: "/manzashops/assets/stream/youtube.jpeg",
   },
   {
     name: "amc",
-    href: null,
+    href: "https://www.amcplus.com/",
     src: "/manzashops/assets/stream/amc.png",
   },
   {
     name: "starz",
-    href: null,
+    href: "https://www.starz.com/us/en/",
     src: "/manzashops/assets/stream/starz.jpeg",
   },
   {
     name: "Fubo Tv",
-    href: null,
+    href: "https://www.fubo.tv/stream/tv/?ftv_campaign=fubotvcom/",
     src: "/manzashops/assets/stream/fubotv.jpeg",
   },
   // {

@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const getYourBestBuy = {
   title: "Electronics",
   id: "get-your-best-buy",
-  btnImg: "/manzashops/assets/dress0101.png",
+  btnImg: "/manzashops/assets/ad/tech.png",
   content: content,
   sections: [
     {

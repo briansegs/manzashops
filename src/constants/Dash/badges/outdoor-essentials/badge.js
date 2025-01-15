@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const outdoorEssentials = {
   title: "Indoor Home Fans",
   id: "outdoor-essentials",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-6.png",
+  btnImg: "/manzashops/assets/ad/fans.png",
   content: content,
   sections: [
     // {

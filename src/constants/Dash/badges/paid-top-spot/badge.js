@@ -12,8 +12,8 @@ import { adSection01 } from "./sections/adSection01/adSection01";
 export const paidTopSpot = {
   title: "Sneakers",
   id: "paid-top-spot",
-  btnImg: "/manzashops/assets/sneak2.png",
-  content: content,
+  btnImg: "/manzashops/assets/ad/sneaks.png",
+  content: content ,
   sections: [
     {
       id: "sec0001",

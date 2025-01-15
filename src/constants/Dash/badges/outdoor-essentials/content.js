@@ -1,7 +1,7 @@
 export const content = [
   {
     name: "Home Depot",
-    href: null,
+    href: "https://www.homedepot.com/",
     src: "/manzashops/assets/nike.jpeg",
   },
   {

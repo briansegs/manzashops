@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const valueVault = {
   title: "Gift Cards",
   id: "value-vault",
-  btnImg: "/manzashops/assets/giftcar.png",
+  btnImg: "/manzashops/assets/ad/giftc.png",
   content: content,
   sections: [
     {

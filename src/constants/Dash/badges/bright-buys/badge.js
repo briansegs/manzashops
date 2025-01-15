@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const brightBuys = {
   title: "Popular Sport Teams",
   id: "bright-buys",
-  btnImg: "/manzashops/assets/badge/laund.png",
+  btnImg: "/manzashops/assets/ad/popularteams.png",
   content: content,
   sections: [
     {

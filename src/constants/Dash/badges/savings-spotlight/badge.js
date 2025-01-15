@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const savingsSpotlight = {
   title: "Rugs",
   id: "savings-spotlight",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-7.png",
+  btnImg: "/manzashops/assets/ad/rugs.png",
   content: content,
   sections: [
     {
