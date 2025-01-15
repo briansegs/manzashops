@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const premiumSelections = {
   title: "Furniture Essentials",
   id: "premium-selections",
-  btnImg: "/manzashops/assets/badge/YouTube Thumbnail-3.png",
+  btnImg: "/manzashops/assets/ad/furniture.png",
   content: content,
   sections: [
     {

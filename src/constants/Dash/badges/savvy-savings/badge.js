@@ -12,7 +12,7 @@ import { adSection02 } from "./sections/adSection02/adSection02";
 export const savvySavings = {
   title: "By Sport Team",
   id: "savvy-savings",
-  btnImg: "/manzashops/assets/badge/hats.png",
+  btnImg: "/manzashops/assets/ad/sportsteam.png",
   content: content,
   sections: [
     {
